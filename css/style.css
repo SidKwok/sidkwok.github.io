@@ -1,0 +1,21 @@
+header {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  height: 600px;
+  text-align: center;
+  display: table; }
+
+h2 {
+  text-align: right; }
+
+body {
+  background: white; }
+
+.info {
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 300px;
+  margin: 0 auto; }

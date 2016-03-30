@@ -1,0 +1,11 @@
+@import "base.scss";
+@import "variable.scss";
+
+.info{
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 300px;
+  margin: 0 auto;
+}
