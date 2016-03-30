@@ -6,11 +6,16 @@ header {
   text-align: center;
   display: table; }
 
+h1 {
+  font-weight: lighter; }
+
 h2 {
+  font-weight: lighter;
   text-align: right; }
 
 body {
-  background: white; }
+  background: #83ae9b;
+  color: #5a5050; }
 
 .info {
   position: relative;

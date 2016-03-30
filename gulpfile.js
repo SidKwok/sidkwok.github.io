@@ -1,6 +1,7 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
+var plumber     = require('gulp-plumber');
 var reload      = browserSync.reload;
 
 gulp.task('serve', ['sass'], function() {
@@ -15,7 +16,7 @@ gulp.task('serve', ['sass'], function() {
 
 gulp.task('sass', function() {
     return gulp.src("sass/style.scss")
-        .pipe(sass())
+        .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest("css"))
         .pipe(reload({stream: true}));
 });
