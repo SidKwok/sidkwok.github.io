@@ -8,10 +8,27 @@
   <body>
     <header>
       <div class="info">
-        <h1>This is my blog, and I'll fix it later.</h1>
+        <h1 id="typingText"></h1>
         <h2>--from Sid</h2>
       </div>
     </header>
     <script src="./js/easyWeather.js"></script>
+    <script src="./js/typing.js"></script>
+    <script>
+      var element = document.querySelector("#typingText");
+      var options = {
+          isRandomSpeed: true,
+          speed: 250
+        };
+      var typing = new Typing(element, options);
+      typing.add("Hey, old sport!")
+            .pause(1000)
+            .delete(15)
+            .add("This is my blog, and I'll fix it later.")
+            .pause(1000)
+            .delete(39)
+            .add("Hope you'll have a good day!")
+
+    </script>
   </body>
 </html>
