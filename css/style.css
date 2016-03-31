@@ -17,10 +17,24 @@ body {
   background: #83ae9b;
   color: #5a5050; }
 
+nav {
+  padding-top: 56px; }
+
+nav a {
+  opacity: 0.5;
+  margin: 0 24px;
+  text-decoration: none;
+  color: #5a5050;
+  transition: 0.5s; }
+
+nav a:hover {
+  opacity: 1; }
+
 .info {
   position: relative;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
   width: 300px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 20%; }
