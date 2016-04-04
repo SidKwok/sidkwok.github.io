@@ -12,6 +12,9 @@
         <h1 id="typingText"></h1>
         <h2>--from Sid</h2>
         <nav>
+          <a href="http://sidkwok.cn/tech-diary/" >
+            <i class="fa fa-book fa-3x"></i>
+          </a>
           <a href="https://github.com/SidKwok" target="_blank">
             <i class="fa fa-github-square fa-3x"></i>
           </a>
@@ -27,16 +30,27 @@
       var element = document.querySelector("#typingText");
       var options = {
           isRandomSpeed: true,
-          speed: 250
+          speed: 100
         };
       var typing = new Typing(element, options);
       typing.add("Hey, old sport!")
             .pause(1000)
             .delete(15)
-            .add("This is my blog, and I'll fix it later.")
+            .add("Nice to see you.")
             .pause(1000)
-            .delete(39)
-            .add("Hope you'll have a good day!")
+            .delete(16)
+            .add("You can check out my Blog.")
+            .pause(1500)
+            .delete(5)
+            .add("Github.")
+            .pause(1500)
+            .delete(7)
+            .add("CV.")
+            .pause(1500)
+            .delete(24)
+            .add("Hope you'll have a nice day!")
+            .pause(1000)
+            .add(" :)");
 
     </script>
   </body>
