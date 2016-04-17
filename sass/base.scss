@@ -15,17 +15,17 @@ h2{
   text-align: right;
 }
 body{
-  background: $light-green;
-  color: #5a5050;
+  background: $babel-yellow;
+  color: $deep-brown;
 }
 nav{
-  padding-top: 56px;
+  padding-top: 0px;
 }
 nav a{
   opacity: 0.5;
   margin: 0 24px;
   text-decoration:none;
-  color: #5a5050;
+  color: $deep-brown;
   transition: 0.5s;
 }
 nav a:hover{
