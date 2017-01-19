@@ -1,9 +1,14 @@
 {
-  "name": "Sid's Blog",
+  "name": "sidkwok.github.io",
   "version": "0.0.0",
-  "private": true,
   "hexo": {
     "version": "3.2.2"
+  },
+  "author": "SidKwok <oceankwok@hotmail.com>",
+  "scripts": {
+    "dev": "hexo server",
+    "build": "hexo generate",
+    "deploy": "hexo generate&&hexo deploy"
   },
   "dependencies": {
     "hexo": "^3.2.0",
