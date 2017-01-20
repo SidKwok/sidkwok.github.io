@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-01-19T13:09:31.000Z</updated>
+  <updated>2017-01-20T08:39:50.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -16,13 +16,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>first post</title>
+    <title>2017 清单</title>
     <link href="http://sidkwok.cn/2017/01/19/first-post/"/>
     <id>http://sidkwok.cn/2017/01/19/first-post/</id>
     <published>2017-01-19T13:09:31.000Z</published>
-    <updated>2017-01-19T13:09:31.000Z</updated>
+    <updated>2017-01-20T08:39:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>[ ] 完成一个简单的mvvm框架<br>[ ] <strong>10KG</strong><br>[ ] <strong>Mingen</strong><br>[ ] 学一种乐器 (包括基础乐理)<br>[ ] 出国旅游一次<br>[ ] 掌握<code>Nodejs</code><br>[ ] 入门<code>php</code><br>[ ] <strong>写一个自己的博客 (hexo or ?)</strong><br>[ ] 深入学习<code>React</code>和<code>React Native</code><br>[ ] 发布一个应用<br>[ ] 每个月看一本书(技术无关)<br>[ ] 当一个实事求是的人</p>
+]]></content>
     
     <summary type="html">
+    
+      &lt;p&gt;[ ] 完成一个简单的mvvm框架&lt;br&gt;[ ] &lt;strong&gt;10KG&lt;/strong&gt;&lt;br&gt;[ ] &lt;strong&gt;Mingen&lt;/strong&gt;&lt;br&gt;[ ] 学一种乐器 (包括基础乐理)&lt;br&gt;[ ] 出国旅游一次&lt;br&gt;[ ] 掌握&lt;code&gt;Nodejs&lt;/
     
     </summary>
     
