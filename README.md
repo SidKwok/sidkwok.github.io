@@ -1,14 +1,16 @@
-# Sid's blog
+# sidkwok.github.io
 
-> sidkwok.cn
+> builder for my blog
 
-```bash
-# dev server
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
 npm run dev
 
-# build the static file
+# build for production with minification
 npm run build
-
-# build and deploy the page
-npm run deploy
 ```
