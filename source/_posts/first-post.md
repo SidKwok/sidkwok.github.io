@@ -21,6 +21,7 @@ tags:
 
 ```javascript
 export default {
-    name: 'app'
+    name: 'app',
+    component: Hello
 }
 ```
