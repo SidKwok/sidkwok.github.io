@@ -18,3 +18,9 @@ tags:
 [ ] 当一个实事求是的人
 [ ] 自我管理
 [ ] 把好玩有趣的东西分段享受
+
+```javascript
+export default {
+    name: 'app'
+}
+```
