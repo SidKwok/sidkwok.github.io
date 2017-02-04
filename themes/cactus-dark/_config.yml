@@ -27,10 +27,6 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: http://github.com/SidKwok
-        twitter: /
-        facebook: /
-        linkedin: /
     post_count: 5
     highlight: rainbow
 
