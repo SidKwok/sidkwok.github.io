@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-02-06T14:16:26.000Z</updated>
+  <updated>2017-02-08T08:59:38.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -16,11 +16,32 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>git</title>
+    <link href="http://sidkwok.cn/2017/02/08/git/"/>
+    <id>http://sidkwok.cn/2017/02/08/git/</id>
+    <published>2017-02-08T08:55:03.000Z</published>
+    <updated>2017-02-08T08:59:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 删除远程分支</span></div><div class="line">git push origin --delete dev</div><div class="line"></div><div class="line"><span class="comment"># 合并分支</span></div><div class="line">git merge dev</div><div class="line"></div><div class="line"><span class="comment"># 拉取远程分支</span></div><div class="line">git checkout -b dev origin/dev</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div
+    
+    </summary>
+    
+    
+      <category term="Tech" scheme="http://sidkwok.cn/tags/Tech/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我很假</title>
     <link href="http://sidkwok.cn/2017/02/06/fake/"/>
     <id>http://sidkwok.cn/2017/02/06/fake/</id>
     <published>2017-02-06T13:47:20.000Z</published>
-    <updated>2017-02-06T14:16:26.000Z</updated>
+    <updated>2017-02-07T13:56:34.000Z</updated>
     
     <content type="html"><![CDATA[<p>我很假。</p>
 <p>这种感觉在人潮汹涌的时候特别真实。</p>
@@ -44,7 +65,7 @@
     </summary>
     
     
-      <category term="philosophy" scheme="http://sidkwok.cn/tags/philosophy/"/>
+      <category term="philosophy, me" scheme="http://sidkwok.cn/tags/philosophy-me/"/>
     
   </entry>
   
