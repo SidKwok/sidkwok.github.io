@@ -5,8 +5,11 @@ tags: Tech
 ---
 
 ```bash
+# 删除本地分支
+git branch -d dev
+
 # 删除远程分支
-git push origin --delete dev
+git push origin -d dev
 
 # 合并分支
 git merge dev
