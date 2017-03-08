@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-03-02T16:12:13.000Z</updated>
+  <updated>2017-03-08T07:48:26.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Redux</title>
+    <link href="http://sidkwok.cn/2017/03/08/redux-tips/"/>
+    <id>http://sidkwok.cn/2017/03/08/redux-tips/</id>
+    <published>2017-03-08T05:51:27.000Z</published>
+    <updated>2017-03-08T07:48:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="redux-thunk"><a href="#redux-thunk" class="headerlink" title="redux-thunk"></a>redux-thunk</h2><p>主要用来处理异步<code>actions</code>，有点像<strong>vuex</strong>中的<code>actions</code>。<strong>vuex</strong>中的<code>actions</code>可以在里面使用一些异步方法，通过<code>commit</code>来达到改变<code>store</code>的目的。而<strong>redux-thunk</strong>则差不多，在<code>thunk</code>函数中异步<code>dispatch</code>。不同的是，<strong>vuex</strong> <code>commit</code>的东西是同步的<code>mutations</code>(在<strong>Redux</strong>中叫<code>actions.type</code>)，而<strong>redux-thunk</strong> <code>dispatch</code>的是<code>actions</code>.</p>
+<h3 id="🌰"><a href="#🌰" class="headerlink" title="🌰"></a>🌰</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// configureStore.js</span></div><div class="line"><span class="keyword">import</span> &#123; createStore, applyMiddleware &#125; <span class="keyword">from</span> <span class="string">'redux'</span>;</div><div class="line"><span class="keyword">import</span> thunk <span class="keyword">from</span> <span class="string">'redux-thunk'</span>;</div><div class="line"><span class="keyword">import</span> rootReducer <span class="keyword">from</span> <span class="string">'./reducers'</span>;</div><div class="line"></div><div class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">configureStore</span>(<span class="params">initialState</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> createStore(</div><div class="line">        rootReducer,</div><div class="line">        initialState,</div><div class="line">        applyMiddleware(thunk)</div><div class="line">    );</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// actions.js</span></div><div class="line"><span class="comment">// 制造一个1秒的异步请求</span></div><div class="line"><span class="keyword">const</span> timeout = <span class="function"><span class="params">()</span> =&gt;</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="params">resolve</span> =&gt;</span> setTimeout(resolve, <span class="number">1000</span>));</div><div class="line"><span class="comment">// 同步action</span></div><div class="line"><span class="keyword">export</span> <span class="keyword">const</span> increment = <span class="function"><span class="params">n</span> =&gt;</span> (&#123;<span class="attr">type</span>: types.INCREMENT, n&#125;);</div><div class="line"><span class="comment">// 异步 thunk action</span></div><div class="line"><span class="keyword">export</span> <span class="keyword">const</span> asyncIncrement = <span class="function"><span class="params">n</span> =&gt;</span> &#123;</div><div class="line">    <span class="keyword">return</span> <span class="function"><span class="params">dispatch</span> =&gt;</span> &#123;</div><div class="line">        <span class="keyword">return</span> timeout().then(<span class="function"><span class="params">()</span> =&gt;</span> &#123;</div><div class="line">            <span class="comment">// 请求成功之后就执行同步的action</span></div><div class="line">            dispatch(increment(n))</div><div class="line">        &#125;);</div><div class="line">    &#125;;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h2 id="compose"><a href="#compose" class="headerlink" title="compose"></a>compose</h2><p>很多时候会用<code>compose</code>来将多个<code>middleware</code>合成一个<code>enhancer</code>传入<code>createStore</code>，很典型的一个例子是结合着<code>redux-devtools</code>来搞。</p>
+<h3 id="🌰-1"><a href="#🌰-1" class="headerlink" title="🌰"></a>🌰</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> &#123; createStore, compose &#125; <span class="keyword">from</span> <span class="string">'redux'</span>;</div><div class="line"><span class="keyword">import</span> thunk <span class="keyword">from</span> <span class="string">'redux-thunk'</span>;</div><div class="line"></div><div class="line"><span class="keyword">import</span> rootReducer <span class="keyword">from</span> <span class="string">'./reducers'</span>;</div><div class="line"></div><div class="line"><span class="keyword">const</span> enhancer = compose(</div><div class="line">    <span class="comment">// 浏览器redux插件</span></div><div class="line">    <span class="built_in">window</span>.__REDUX_DEVTOOLS_EXTENSION__ &amp;&amp; <span class="built_in">window</span>.__REDUX_DEVTOOLS_EXTENSION__(),</div><div class="line">    <span class="comment">// 自己的插件</span></div><div class="line">    thunk</div><div class="line">);</div><div class="line"></div><div class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">configureStore</span> (<span class="params">initialState</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> createStore(</div><div class="line">        rootReducer,</div><div class="line">        initialState,</div><div class="line">        enhancer</div><div class="line">    );</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;redux-thunk&quot;&gt;&lt;a href=&quot;#redux-thunk&quot; class=&quot;headerlink&quot; title=&quot;redux-thunk&quot;&gt;&lt;/a&gt;redux-thunk&lt;/h2&gt;&lt;p&gt;主要用来处理异步&lt;code&gt;actions&lt;/code&gt;，有点像&lt;s
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+  </entry>
   
   <entry>
     <title>It is time to end it.</title>
