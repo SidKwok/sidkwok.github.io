@@ -47,6 +47,7 @@ tags: [javascript, tech]
 * **[Popper.js](https://popper.js.org/)**，轻量的弹出框，不同于modal的弹出
 * **[sweetalert,js](http://t4t5.github.io/sweetalert/)**，弹出提示
 * **[Notyf](http://carlosroso.com/notyf/)**，轻量提示框
+* **[Tippy.js](https://atomiks.github.io/tippyjs/)**，hover提示，功能比较多
 
 ### 工具
 * **[Dropzone.js](http://www.dropzonejs.com/)**，拖拽上传

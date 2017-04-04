@@ -42,10 +42,8 @@ tags: [css, tech]
 * **[sass 中文文档](http://www.css88.com/doc/sass/)**
 * **[clippy](http://bennettfeely.com/clippy/)**，使用`clip`来裁剪图像的css代码
 * **[less转css](https://1024tools.com/less)**
-* **[Emoji Searcher](http://emoji.muan.co/)**，emoji搜索器，主要用于git的commit
-* **[favicon.io](https://favicon.io/index.html)**，favicon制作器
 * **[grid-kiss](https://github.com/sylvainpolletvillard/postcss-grid-kiss)**，post-css的栅栏系统的插件
-* **[Android Material 材料风格图标LOGO生成器](http://jaqen.me/mdpub/)**
+* **[AniCollection](http://anicollection.github.io/#/)**，一堆动画合集
 
 ## 例子
 * **[AnimatedCheckboxes](https://tympanus.net/Development/AnimatedCheckboxes/)**，有动画效果的checkbox
