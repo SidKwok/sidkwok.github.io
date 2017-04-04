@@ -1,5 +1,5 @@
 ---
-title: webpack-collection
+title: webpack-集合
 date: 2017-04-04 13:51:33
 tags: [webpack, javascript, tech]
 ---

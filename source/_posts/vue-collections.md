@@ -1,5 +1,5 @@
 ---
-title: vue-collection
+title: Vue-集合
 date: 2017-04-04 13:23:29
 tags: [vue, tech, javascript]
 ---

@@ -1,5 +1,5 @@
 ---
-title: react-collection
+title: React-集合
 date: 2017-04-04 13:23:41
 tags: [react, javascript, tech]
 ---
