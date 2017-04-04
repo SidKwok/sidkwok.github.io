@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-04-02T06:12:06.000Z</updated>
+  <updated>2017-04-04T04:24:48.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -14,6 +14,77 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSS-集合</title>
+    <link href="http://sidkwok.cn/2017/04/04/css-libs/"/>
+    <id>http://sidkwok.cn/2017/04/04/css-libs/</id>
+    <published>2017-04-04T03:21:20.000Z</published>
+    <updated>2017-04-04T04:24:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考标准"><a href="#参考标准" class="headerlink" title="参考标准"></a>参考标准</h2><ul>
+<li><strong><a href="http://caniuse.com/" target="_blank" rel="external">Can I Use</a></strong>，浏览器兼容性查询，也可以查javascript</li>
+<li><strong><a href="http://cssreference.io/" target="_blank" rel="external">CSS Reference</a></strong>，css的参考手册</li>
+<li><strong><a href="http://htmlreference.io/" target="_blank" rel="external">HTML Reference</a></strong>, html的参考手册</li>
+</ul>
+<h2 id="库"><a href="#库" class="headerlink" title="库"></a>库</h2><ul>
+<li><strong><a href="https://daneden.github.io/animate.css/" target="_blank" rel="external">Animate.css</a></strong>，各种css动画的集合</li>
+<li><strong><a href="http://ianlunn.github.io/Hover/" target="_blank" rel="external">Hover.css</a></strong>，Hover动画的集合，一般用于button的hover效果</li>
+<li><strong><a href="http://h5bp.github.io/Effeckt.css/" target="_blank" rel="external">Effeckt.css</a></strong>，一些css动画的集合，不是一个库，只是一些例子</li>
+<li><strong><a href="https://kushagragour.in/lab/hint/" target="_blank" rel="external">Hint.css</a></strong>，hover提示，如果商用要给钱</li>
+<li><strong><a href="http://www.cssarrowplease.com/" target="_blank" rel="external">CSS ARROW</a></strong>，用css写箭头，一个生成工具</li>
+<li><strong><a href="https://webkul.github.io/csspin/" target="_blank" rel="external">CSSPIN</a></strong>，用css写的各种loader，十分有趣！</li>
+<li><strong><a href="https://tiaanduplessis.github.io/wenk/" target="_blank" rel="external">Wenk</a></strong>，hover提示</li>
+<li><strong><a href="https://jonsuh.com/hamburgers/" target="_blank" rel="external">hamburgers</a></strong>，hamburger icon，还有动画效果</li>
+<li><strong><a href="https://polarnotion.github.io/starwarsintro/" target="_blank" rel="external">StarWarsIntro</a></strong>，星球大战开场字幕效果</li>
+<li><strong><a href="https://boguz.github.io/Spinners/" target="_blank" rel="external">SPINNERS</a></strong>，css加载动画，不过这不是一个库，是一堆css集合</li>
+<li><strong><a href="http://www.raphaelfabeni.com.br/css-loader/" target="_blank" rel="external">CSS Loader</a></strong>，css加载动画，这个是占满整个屏幕的，而不是单单一个icon</li>
+<li><strong><a href="https://picturepan2.github.io/spectre/experimentals.html#parallax" target="_blank" rel="external">parallax</a></strong>，移动鼠标屏幕会跟着3d移动</li>
+<li><strong><a href="http://bttn.surge.sh/" target="_blank" rel="external">bttn.css</a></strong>，button样式集合</li>
+</ul>
+<h2 id="Icon"><a href="#Icon" class="headerlink" title="Icon"></a>Icon</h2><ul>
+<li><strong><a href="http://www.iconfont.cn/plus" target="_blank" rel="external">阿里巴巴矢量图标库</a></strong>，可以搜索相关的icon并自定义</li>
+<li><strong><a href="http://www.thinkcmf.com/font/" target="_blank" rel="external">Font Awesome</a></strong></li>
+<li><strong><a href="https://erikflowers.github.io/weather-icons/" target="_blank" rel="external">weather-icons</a></strong>，天气图标</li>
+<li><strong><a href="http://danklammer.com/bytesize-icons/" target="_blank" rel="external">bytesize-icons</a></strong>，svg icons</li>
+<li><strong><a href="http://cssicon.space/#/icon/profile" target="_blank" rel="external">CSS ICON</a></strong>，可以直接复制一段css生成icon</li>
+</ul>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul>
+<li><strong><a href="https://webgradients.com/" target="_blank" rel="external">WebGradients</a></strong>，css做出来的渐变色彩</li>
+<li><strong><a href="http://isux.tencent.com/css3/tools.html" target="_blank" rel="external">css3 animation</a></strong>，css3的动画制作</li>
+<li><strong><a href="http://www.css88.com/doc/sass/" target="_blank" rel="external">sass 中文文档</a></strong></li>
+<li><strong><a href="http://bennettfeely.com/clippy/" target="_blank" rel="external">clippy</a></strong>，使用<code>clip</code>来裁剪图像的css代码</li>
+<li><strong><a href="https://1024tools.com/less" target="_blank" rel="external">less转css</a></strong></li>
+<li><strong><a href="http://emoji.muan.co/" target="_blank" rel="external">Emoji Searcher</a></strong>，emoji搜索器，主要用于git的commit</li>
+<li><strong><a href="https://favicon.io/index.html" target="_blank" rel="external">favicon.io</a></strong>，favicon制作器</li>
+<li><strong><a href="https://github.com/sylvainpolletvillard/postcss-grid-kiss" target="_blank" rel="external">grid-kiss</a></strong>，post-css的栅栏系统的插件</li>
+</ul>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><ul>
+<li><strong><a href="https://tympanus.net/Development/AnimatedCheckboxes/" target="_blank" rel="external">AnimatedCheckboxes</a></strong>，有动画效果的checkbox</li>
+<li><strong><a href="https://tympanus.net/Development/AnimatedSVGIcons/" target="_blank" rel="external">Animated SVG Icons</a></strong>，有动画效果的svg icons</li>
+<li><strong><a href="https://tympanus.net/Development/LineMenuStyles/" target="_blank" rel="external">Line Menu Styles</a></strong>，有动画效果的tab</li>
+<li><strong><a href="http://codepen.io/hexagoncircle/pen/akWOdE" target="_blank" rel="external">CSS Site Scroll Micro Animation</a></strong>，滚动提示的动画icon</li>
+<li><strong><a href="http://codepen.io/psyonline/pen/yayYWg" target="_blank" rel="external">人工智能加载</a></strong>，电影Her里面的加载</li>
+<li><strong><a href="http://codepen.io/chrisgannon/pen/GZNgLw" target="_blank" rel="external">SVG Bubble Slider</a></strong>，有趣的气泡icon</li>
+<li><strong><a href="http://codepen.io/bennettfeely/pen/wWVZAW" target="_blank" rel="external">Menu with mix-blend-mode buttons</a></strong>，css多彩菜单</li>
+<li><strong><a href="http://codepen.io/davidkpiano/pen/zqNJRY" target="_blank" rel="external">CSS/SVG Lines App Concept</a></strong>，表单线动画</li>
+<li><strong><a href="http://codepen.io/suez/pen/gPRjBo" target="_blank" rel="external">Pure CSS Header Menu</a></strong>，菜单展开</li>
+<li><strong><a href="http://codepen.io/tutsplus/pen/QNeJgR" target="_blank" rel="external">Building a Vertical Timeline With CSS and a Touch of JavaScript</a></strong>，时间轴</li>
+<li><strong><a href="http://codepen.io/supah/pen/WwrJpw" target="_blank" rel="external">Leaderboard</a></strong>，列表</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;参考标准&quot;&gt;&lt;a href=&quot;#参考标准&quot; class=&quot;headerlink&quot; title=&quot;参考标准&quot;&gt;&lt;/a&gt;参考标准&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://caniuse.com/&quot; target=&quot;_blank&quot; re
+    
+    </summary>
+    
+    
+      <category term="css" scheme="http://sidkwok.cn/tags/css/"/>
+    
+  </entry>
   
   <entry>
     <title>《乘风破浪》--挺装逼的</title>
