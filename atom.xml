@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-04-04T05:55:05.000Z</updated>
+  <updated>2017-04-04T06:26:21.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>webpack-collection</title>
-    <link href="http://sidkwok.cn/2017/04/04/webpack-collection/"/>
-    <id>http://sidkwok.cn/2017/04/04/webpack-collection/</id>
+    <title>webpack-集合</title>
+    <link href="http://sidkwok.cn/2017/04/04/webpack-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/webpack-collections/</id>
     <published>2017-04-04T05:51:33.000Z</published>
-    <updated>2017-04-04T05:55:05.000Z</updated>
+    <updated>2017-04-04T06:26:21.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
 <li><strong><a href="https://doc.webpack-china.org/" target="_blank" rel="external">webpack2 中文文档</a></strong></li>
@@ -52,11 +52,11 @@
   </entry>
   
   <entry>
-    <title>react-collection</title>
+    <title>React-集合</title>
     <link href="http://sidkwok.cn/2017/04/04/react-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/react-collections/</id>
     <published>2017-04-04T05:23:41.000Z</published>
-    <updated>2017-04-04T06:00:51.000Z</updated>
+    <updated>2017-04-04T06:26:17.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
 <li><strong><a href="http://cn.redux.js.org/" target="_blank" rel="external">Redux 中文文档</a></strong></li>
@@ -96,11 +96,11 @@
   </entry>
   
   <entry>
-    <title>vue-collection</title>
-    <link href="http://sidkwok.cn/2017/04/04/vue-collection/"/>
-    <id>http://sidkwok.cn/2017/04/04/vue-collection/</id>
+    <title>Vue-集合</title>
+    <link href="http://sidkwok.cn/2017/04/04/vue-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/vue-collections/</id>
     <published>2017-04-04T05:23:29.000Z</published>
-    <updated>2017-04-04T06:00:23.000Z</updated>
+    <updated>2017-04-04T06:37:05.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
 <li><strong><a href="https://cn.vuejs.org/" target="_blank" rel="external">Vue.js 中文文档</a></strong></li>
@@ -162,7 +162,7 @@
     <link href="http://sidkwok.cn/2017/04/04/js-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/js-collections/</id>
     <published>2017-04-04T04:27:31.000Z</published>
-    <updated>2017-04-04T06:23:24.000Z</updated>
+    <updated>2017-04-04T06:36:01.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
 <li><strong><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" target="_blank" rel="external">JavaScript 参考文档</a></strong></li>
@@ -175,48 +175,58 @@
 <li><strong><a href="http://lodashjs.com/docs/" target="_blank" rel="external">lodash 中文文档</a></strong>，v3.10.1</li>
 <li><strong><a href="http://www.css88.com/jqapi-1.9/" target="_blank" rel="external">jQuery 文档</a></strong></li>
 </ul>
-<h2 id="库"><a href="#库" class="headerlink" title="库"></a>库</h2><ul>
-<li><strong><a href="http://www.dropzonejs.com/" target="_blank" rel="external">Dropzone.js</a></strong>，拖拽上传</li>
+<h2 id="库"><a href="#库" class="headerlink" title="库"></a>库</h2><h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><ul>
 <li><strong><a href="http://bouncejs.com/" target="_blank" rel="external">Bounce.js</a></strong>，Bounce js动画，很Q弹</li>
 <li><strong><a href="http://dynamicsjs.com/" target="_blank" rel="external">Dynamics.js</a></strong>，带有物理效果的动画</li>
-<li><strong><a href="https://slideout.js.org/" target="_blank" rel="external">Slideout.js</a></strong>，滑动菜单的效果，用于手机</li>
-<li><strong><a href="http://desmonding.me/zooming/" target="_blank" rel="external">Zooming</a></strong>，图像放大效果</li>
 <li><strong><a href="https://christinecha.github.io/choreographer-js/" target="_blank" rel="external">Choreographer.js</a></strong>，动画库，能够处理复杂的css</li>
-<li><strong><a href="https://popper.js.org/" target="_blank" rel="external">Popper.js</a></strong>，轻量的弹出框，不同于modal的弹出</li>
 <li><strong><a href="http://anime-js.com/" target="_blank" rel="external">anime.js</a></strong>，动画库</li>
-<li><strong><a href="http://faisalman.github.io/ua-parser-js/" target="_blank" rel="external">UAParser.js</a></strong>，分析浏览器UA</li>
-<li><strong><a href="https://github.com/ecomfe/aop" target="_blank" rel="external">uaop</a></strong>，ecomfe写的aop库</li>
-<li><strong><a href="https://github.com/cujojs/meld" target="_blank" rel="external">meld.js</a></strong>，aop库</li>
-<li><strong><a href="https://github.com/ebidel/appmetrics.js" target="_blank" rel="external">appmetrics.js</a></strong>，分析页面信息然后上传到google analysis</li>
-<li><strong><a href="http://ricostacruz.com/nprogress/" target="_blank" rel="external">NProgress.js</a></strong>，头部加载条</li>
-<li><strong><a href="http://listjs.com/" target="_blank" rel="external">List.js</a></strong>，处理列表的库，支持搜索排序等功能</li>
-<li><strong><a href="http://kenwheeler.github.io/slick" target="_blank" rel="external">Slick.js</a></strong>，轮播</li>
-<li><strong><a href="https://github.com/jlmakes/scrollreveal" target="_blank" rel="external">Scrollreveal.js</a></strong>，滚动效果</li>
-<li><strong><a href="http://kushagragour.in/lab/superplaceholderjs/" target="_blank" rel="external">superplaceholder.js</a></strong>，placeholder动画</li>
-<li><strong><a href="http://t4t5.github.io/sweetalert/" target="_blank" rel="external">sweetalert,js</a></strong>，弹出提示</li>
-<li><strong><a href="http://impress.github.io/impress.js" target="_blank" rel="external">impress.js</a></strong>，类似ppt，设计感爆炸的ppt</li>
-<li><strong><a href="https://okazari.github.io/Rythm.js/" target="_blank" rel="external">Rythm.js</a></strong>，声音控制节奏移动dom</li>
-<li><strong><a href="https://hsnaydd.github.io/moveTo/demo/" target="_blank" rel="external">moveTo.js</a></strong>，移动到页面相应位置(回到顶部)</li>
-<li><strong><a href="http://carlosroso.com/notyf/" target="_blank" rel="external">Notyf</a></strong>，轻量提示框</li>
-<li><strong><a href="http://nosir.github.io/cleave.js/" target="_blank" rel="external">Cleave.js</a></strong>，表单输入的时候自动格式化</li>
-<li><strong><a href="https://micku7zu.github.io/vanilla-tilt.js/index.html" target="_blank" rel="external">vanilla-tilt.js</a></strong>，3d视差移动</li>
-<li><strong><a href="https://github.com/kciter/qart.js" target="_blank" rel="external">qart.js</a></strong>，二维码，支持自定义</li>
-<li><strong><a href="http://anguscroll.com/just/" target="_blank" rel="external">Just</a></strong>，工具函数库，是一堆独立的库，功能类似lodash</li>
-<li><strong><a href="https://github.com/BetterJS/badjs-report" target="_blank" rel="external">badjs</a></strong>，前端性能监测</li>
-<li><strong><a href="https://github.com/MaxArt2501/re-build" target="_blank" rel="external">re-build</a></strong>，用自然语言写正则表达式</li>
-<li><strong><a href="http://snapsvg.io/" target="_blank" rel="external">Snap.svg</a></strong>，svg动画库</li>
-<li><strong><a href="https://jrainlau.github.io/sphinx/" target="_blank" rel="external">sphinx</a></strong>，将字符串转化为base64编码并生成图像</li>
 <li><strong><a href="http://prinzhorn.github.io/skrollr/" target="_blank" rel="external">skrollr</a></strong>，滚动动画</li>
 <li><strong><a href="https://sarcadass.github.io/granim.js/" target="_blank" rel="external">Granim.js</a></strong>，渐变动画，超帅</li>
-<li><strong><a href="https://chmln.github.io/flatpickr/" target="_blank" rel="external">flatpickr</a></strong>，最好用的日历选择器</li>
-<li><strong><a href="https://camwiegert.github.io/baffle/" target="_blank" rel="external">baffle.js</a></strong>，很炫的文字模糊显示效果</li>
+<li><strong><a href="http://voxelcss.com/" target="_blank" rel="external">voxelcss</a></strong>，不知道怎么形容，3d就对了</li>
+<li><strong><a href="http://www.rich-harris.co.uk/ramjet/" target="_blank" rel="external">ramjet</a></strong>，dom转换动画</li>
+<li><strong><a href="http://kushagragour.in/lab/superplaceholderjs/" target="_blank" rel="external">superplaceholder.js</a></strong>，placeholder动画</li>
+<li><strong><a href="https://micku7zu.github.io/vanilla-tilt.js/index.html" target="_blank" rel="external">vanilla-tilt.js</a></strong>，3d视差移动</li>
+<li><strong><a href="http://snapsvg.io/" target="_blank" rel="external">Snap.svg</a></strong>，svg动画库</li>
+</ul>
+<h3 id="ui相关"><a href="#ui相关" class="headerlink" title="ui相关"></a>ui相关</h3><ul>
+<li><strong><a href="https://slideout.js.org/" target="_blank" rel="external">Slideout.js</a></strong>，滑动菜单的效果，用于手机</li>
+<li><strong><a href="http://desmonding.me/zooming/" target="_blank" rel="external">Zooming</a></strong>，图像放大效果</li>
+<li><strong><a href="http://ricostacruz.com/nprogress/" target="_blank" rel="external">NProgress.js</a></strong>，头部加载条</li>
+<li><strong><a href="http://kenwheeler.github.io/slick" target="_blank" rel="external">Slick.js</a></strong>，轮播</li>
 <li><strong><a href="https://github.com/sachinchoolur/lightgallery.js" target="_blank" rel="external">lightgallery.js</a></strong>，图片幻灯片</li>
 <li><strong><a href="http://idangero.us/swiper/" target="_blank" rel="external">Swiper</a></strong>，滑动幻灯片</li>
-<li><strong><a href="http://voxelcss.com/" target="_blank" rel="external">voxelcss</a></strong>，不知道怎么形容，3d就对了</li>
+</ul>
+<h3 id="滚动相关"><a href="#滚动相关" class="headerlink" title="滚动相关"></a>滚动相关</h3><ul>
+<li><strong><a href="https://github.com/jlmakes/scrollreveal" target="_blank" rel="external">Scrollreveal.js</a></strong>，滚动效果</li>
+<li><strong><a href="https://hsnaydd.github.io/moveTo/demo/" target="_blank" rel="external">moveTo.js</a></strong>，移动到页面相应位置(回到顶部)</li>
 <li><strong><a href="https://terwanerik.github.io/ScrollTrigger/" target="_blank" rel="external">ScrollTrigger</a></strong>，滚动触发</li>
+</ul>
+<h3 id="弹出"><a href="#弹出" class="headerlink" title="弹出"></a>弹出</h3><ul>
+<li><strong><a href="https://popper.js.org/" target="_blank" rel="external">Popper.js</a></strong>，轻量的弹出框，不同于modal的弹出</li>
+<li><strong><a href="http://t4t5.github.io/sweetalert/" target="_blank" rel="external">sweetalert,js</a></strong>，弹出提示</li>
+<li><strong><a href="http://carlosroso.com/notyf/" target="_blank" rel="external">Notyf</a></strong>，轻量提示框</li>
+</ul>
+<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><strong><a href="http://www.dropzonejs.com/" target="_blank" rel="external">Dropzone.js</a></strong>，拖拽上传</li>
+<li><strong><a href="http://faisalman.github.io/ua-parser-js/" target="_blank" rel="external">UAParser.js</a></strong>，分析浏览器UA</li>
+<li><strong><a href="https://github.com/ecomfe/aop" target="_blank" rel="external">uaop</a></strong>，ecomfe写的aop库</li>
+<li><strong><a href="https://github.com/cujojs/meld" target="_blank" rel="external">meld.js</a></strong>，aop库，比较好用</li>
+<li><strong><a href="https://github.com/ebidel/appmetrics.js" target="_blank" rel="external">appmetrics.js</a></strong>，分析页面信息然后上传到google analysis</li>
+<li><strong><a href="http://listjs.com/" target="_blank" rel="external">List.js</a></strong>，处理列表的库，支持搜索排序等功能</li>
+<li><strong><a href="http://nosir.github.io/cleave.js/" target="_blank" rel="external">Cleave.js</a></strong>，表单输入的时候自动格式化</li>
+<li><strong><a href="https://github.com/kciter/qart.js" target="_blank" rel="external">qart.js</a></strong>，二维码，支持自定义</li>
+<li><strong><a href="http://anguscroll.com/just/" target="_blank" rel="external">Just</a></strong>，工具函数库，是一堆独立的库，功能类似lodash</li>
 <li><strong><a href="https://clipboardjs.com/" target="_blank" rel="external">clipboard.js</a></strong>，最好用的复制粘贴，支持ie9以上</li>
 <li><strong><a href="http://hammerjs.github.io/" target="_blank" rel="external">hammer.js</a></strong>，移动端触摸库</li>
-<li><strong><a href="http://www.rich-harris.co.uk/ramjet/" target="_blank" rel="external">ramjet</a></strong>，dom转换动画</li>
+<li><strong><a href="https://github.com/BetterJS/badjs-report" target="_blank" rel="external">badjs</a></strong>，前端性能监测</li>
+<li><strong><a href="https://github.com/MaxArt2501/re-build" target="_blank" rel="external">re-build</a></strong>，用自然语言写正则表达式</li>
+<li><strong><a href="https://chmln.github.io/flatpickr/" target="_blank" rel="external">flatpickr</a></strong>，最好用的日历选择器</li>
+</ul>
+<h3 id="for-fun"><a href="#for-fun" class="headerlink" title="for fun"></a>for fun</h3><ul>
+<li><strong><a href="http://impress.github.io/impress.js" target="_blank" rel="external">impress.js</a></strong>，类似ppt，设计感爆炸的ppt</li>
+<li><strong><a href="https://okazari.github.io/Rythm.js/" target="_blank" rel="external">Rythm.js</a></strong>，声音控制节奏移动dom</li>
+<li><strong><a href="https://jrainlau.github.io/sphinx/" target="_blank" rel="external">sphinx</a></strong>，将字符串转化为base64编码并生成图像</li>
+<li><strong><a href="https://camwiegert.github.io/baffle/" target="_blank" rel="external">baffle.js</a></strong>，很炫的文字模糊显示效果</li>
 </ul>
 ]]></content>
     

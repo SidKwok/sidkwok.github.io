@@ -2,9 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sidkwok.cn/2017/04/04/vue-collections/</loc>
+    
+    <lastmod>2017-04-04T06:37:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sidkwok.cn/2017/04/04/js-collections/</loc>
     
-    <lastmod>2017-04-04T06:23:24.000Z</lastmod>
+    <lastmod>2017-04-04T06:36:01.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sidkwok.cn/2017/04/04/webpack-collections/</loc>
+    
+    <lastmod>2017-04-04T06:26:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sidkwok.cn/2017/04/04/react-collections/</loc>
+    
+    <lastmod>2017-04-04T06:26:17.000Z</lastmod>
     
   </url>
   
@@ -12,27 +33,6 @@
     <loc>http://sidkwok.cn/2017/04/04/css-collections/</loc>
     
     <lastmod>2017-04-04T06:21:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sidkwok.cn/2017/04/04/react-collections/</loc>
-    
-    <lastmod>2017-04-04T06:00:51.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sidkwok.cn/2017/04/04/vue-collection/</loc>
-    
-    <lastmod>2017-04-04T06:00:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sidkwok.cn/2017/04/04/webpack-collection/</loc>
-    
-    <lastmod>2017-04-04T05:55:05.000Z</lastmod>
     
   </url>
   
