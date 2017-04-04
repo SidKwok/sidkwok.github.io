@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-04-04T06:26:21.000Z</updated>
+  <updated>2017-04-04T17:27:31.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -14,6 +14,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工具集</title>
+    <link href="http://sidkwok.cn/2017/04/05/tool-collections/"/>
+    <id>http://sidkwok.cn/2017/04/05/tool-collections/</id>
+    <published>2017-04-04T17:15:52.000Z</published>
+    <updated>2017-04-04T17:27:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><strong><a href="http://emoji.muan.co/" target="_blank" rel="external">Emoji Searcher</a></strong>，emoji搜索器，主要用于git的commit</li>
+<li><strong><a href="https://favicon.io/index.html" target="_blank" rel="external">favicon.io</a></strong>，favicon制作器</li>
+<li><strong><a href="http://jaqen.me/mdpub/" target="_blank" rel="external">Android Material 材料风格图标LOGO生成器</a></strong></li>
+<li><strong><a href="http://fontfling.com/" target="_blank" rel="external">fontfling</a></strong>，寻找相应的字体</li>
+<li>**<a href="http://patorjk.com/software/taag/#p=display&amp;f=Big&amp;t=test" target="_blank" rel="external">生成ASCII字体</a></li>
+<li><strong><a href="https://www.emailthis.me/open-source/extension-boilerplate" target="_blank" rel="external">extension-boilerplate</a></strong>，浏览器插件脚手架</li>
+<li><strong><a href="https://egoistian.com/slogan/" target="_blank" rel="external">slogan</a></strong>，制作项目icon</li>
+<li><strong><a href="http://shields.io/" target="_blank" rel="external">shields</a></strong>，制作github的readme badge</li>
+<li><strong><a href="https://npms.io/" target="_blank" rel="external">npms.io</a></strong>，搜索npm模块，并可以知道其质量好坏</li>
+<li><strong><a href="http://semver.org/lang/zh-CN/" target="_blank" rel="external">语义化版本 2.0.0</a></strong></li>
+<li><strong><a href="http://gifmiao.com/index" target="_blank" rel="external">聊天表情动图</a></strong></li>
+<li><strong><a href="https://github.com/steambap/png-to-ico" target="_blank" rel="external">png-to-ico</a></strong>，png转换ico</li>
+<li><strong><a href="https://webpackbin.herokuapp.com/4kjctc5vb" target="_blank" rel="external">webpackbin</a></strong>，webpack的在线编辑</li>
+<li><strong><a href="https://projects.lukehaas.me/regexhub/" target="_blank" rel="external">regexhub</a></strong>，正则表达式的在线编辑</li>
+<li><strong><a href="https://www.staticfile.org/" target="_blank" rel="external">staticfile</a></strong>，直接引用相关script和link</li>
+<li><strong><a href="https://gitmoji.carloscuesta.me/" target="_blank" rel="external">gitmoji</a></strong>，用emoji来描述commit信息</li>
+<li><strong><a href=""></a></strong>，</li>
+<li><strong><a href=""></a></strong>，</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://emoji.muan.co/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emoji Searcher&lt;/a&gt;&lt;/strong&gt;，emoji搜索器，主要用于git的commit&lt;/li&gt;
+&lt;li
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS-技巧集</title>
+    <link href="http://sidkwok.cn/2017/04/04/css-tips/"/>
+    <id>http://sidkwok.cn/2017/04/04/css-tips/</id>
+    <published>2017-04-04T09:00:32.000Z</published>
+    <updated>2017-04-04T17:00:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="优化显示文本"><a href="#优化显示文本" class="headerlink" title="优化显示文本"></a>优化显示文本</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">html</span> &#123;</div><div class="line">    <span class="attribute">-moz-osx-font-smoothing</span>: grayscale;</div><div class="line">    <span class="attribute">-webkit-font-smoothing</span>: antialiased;</div><div class="line">    <span class="attribute">text-rendering</span>: optimizeLegibility;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><em>效果(上是优化前，下是优化后)：</em></p>
+<p><img src="/images/css-tips/css-tips-1.png" alt="1"></p>
+<h2 id="表格单元格等宽"><a href="#表格单元格等宽" class="headerlink" title="表格单元格等宽"></a>表格单元格等宽</h2><p>这个可以使保持单元格等宽</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.calendar</span> &#123;</div><div class="line">    <span class="attribute">table-layout</span>: fixed;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="使用属性选择器用于空链接"><a href="#使用属性选择器用于空链接" class="headerlink" title="使用属性选择器用于空链接"></a>使用属性选择器用于空链接</h3><p>当a标签文本值为空时，使用<code>href</code>里的链接作为文本值</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">a</span><span class="selector-attr">[href^="http"]</span><span class="selector-pseudo">:empty</span><span class="selector-pseudo">::before</span> &#123;</div><div class="line">    <span class="attribute">content</span>: <span class="built_in">attr</span>(href);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="禁用鼠标事件"><a href="#禁用鼠标事件" class="headerlink" title="禁用鼠标事件"></a>禁用鼠标事件</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.disabled</span> &#123;</div><div class="line">    <span class="attribute">pointer-events</span>: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="模糊文本"><a href="#模糊文本" class="headerlink" title="模糊文本"></a>模糊文本</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.blur</span> &#123;</div><div class="line">   <span class="attribute">color</span>: transparent;</div><div class="line">   <span class="attribute">text-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="built_in">rgba</span>(0,0,0,0.5);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="垂直对齐"><a href="#垂直对齐" class="headerlink" title="垂直对齐"></a>垂直对齐</h3><p>这种方法用了<code>transform</code>，ie9以上才支持</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.verticalcenter</span>&#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">top</span>: <span class="number">50%</span>;</div><div class="line">    <span class="attribute">-webkit-transform</span>: <span class="built_in">translateY</span>(-50%);</div><div class="line">    <span class="attribute">-o-transform</span>: <span class="built_in">translateY</span>(-50%);</div><div class="line">    <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-50%);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="伸展一个元素到窗口高度"><a href="#伸展一个元素到窗口高度" class="headerlink" title="伸展一个元素到窗口高度"></a>伸展一个元素到窗口高度</h3><p>要设置html和body的高度为100%之后，元素的高度100%才会沾满屏幕</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">html</span>,</div><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="表格列宽自适用"><a href="#表格列宽自适用" class="headerlink" title="表格列宽自适用"></a>表格列宽自适用</h3><p>表格会适当地换行</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">td</span> &#123;</div><div class="line">    <span class="attribute">white-space</span>: nowrap;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="媒体查询"><a href="#媒体查询" class="headerlink" title="媒体查询"></a>媒体查询</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* Smartphones (portrait and landscape) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen</div><div class="line">and (min-device-width : <span class="number">320px</span>) and (max-device-width : <span class="number">480px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* Smartphones (landscape) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-width : <span class="number">321px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* Smartphones (portrait) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (max-width : <span class="number">320px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* iPads (portrait and landscape) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-device-width : <span class="number">768px</span>) and (max-device-width : <span class="number">1024px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* iPads (landscape) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-device-width : <span class="number">768px</span>) and (max-device-width : <span class="number">1024px</span>) and (orientation : landscape) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* iPads (portrait) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-device-width : <span class="number">768px</span>) and (max-device-width : <span class="number">1024px</span>) and (orientation : portrait) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* Desktops and laptops ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-width : <span class="number">1224px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* Large screens ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-width : <span class="number">1824px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* iPhone 4 ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (-webkit-min-device-pixel-ratio:<span class="number">1.5</span>), only screen and (min-device-pixel-ratio:<span class="number">1.5</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="自定义文本选择"><a href="#自定义文本选择" class="headerlink" title="自定义文本选择"></a>自定义文本选择</h3><p>选中文本的时候生成不同的颜色</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-pseudo">::selection</span> &#123; <span class="attribute">background</span>: <span class="number">#e2eae2</span>; &#125;</div><div class="line"><span class="selector-pseudo">::-moz-selection</span> &#123; <span class="attribute">background</span>: <span class="number">#e2eae2</span>; &#125;</div><div class="line"><span class="selector-pseudo">::-webkit-selection</span> &#123; <span class="attribute">background</span>: <span class="number">#e2eae2</span>; &#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/css-tips/css-tips-2.png" alt="2"></p>
+<h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ul>
+<li><a href="http://caibaojian.com/useful-css-tips.html" target="_blank" rel="external">20个很有用的CSS技巧</a></li>
+<li><a href="https://segmentfault.com/a/1190000002773955" target="_blank" rel="external">60个有用CSS代码片段</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;优化显示文本&quot;&gt;&lt;a href=&quot;#优化显示文本&quot; class=&quot;headerlink&quot; title=&quot;优化显示文本&quot;&gt;&lt;/a&gt;优化显示文本&lt;/h2&gt;&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutte
+    
+    </summary>
+    
+    
+      <category term="css" scheme="http://sidkwok.cn/tags/css/"/>
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+  </entry>
   
   <entry>
     <title>webpack-集合</title>
@@ -162,7 +249,7 @@
     <link href="http://sidkwok.cn/2017/04/04/js-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/js-collections/</id>
     <published>2017-04-04T04:27:31.000Z</published>
-    <updated>2017-04-04T06:36:01.000Z</updated>
+    <updated>2017-04-04T16:23:48.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
 <li><strong><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" target="_blank" rel="external">JavaScript 参考文档</a></strong></li>
@@ -205,6 +292,7 @@
 <li><strong><a href="https://popper.js.org/" target="_blank" rel="external">Popper.js</a></strong>，轻量的弹出框，不同于modal的弹出</li>
 <li><strong><a href="http://t4t5.github.io/sweetalert/" target="_blank" rel="external">sweetalert,js</a></strong>，弹出提示</li>
 <li><strong><a href="http://carlosroso.com/notyf/" target="_blank" rel="external">Notyf</a></strong>，轻量提示框</li>
+<li><strong><a href="https://atomiks.github.io/tippyjs/" target="_blank" rel="external">Tippy.js</a></strong>，hover提示，功能比较多</li>
 </ul>
 <h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul>
 <li><strong><a href="http://www.dropzonejs.com/" target="_blank" rel="external">Dropzone.js</a></strong>，拖拽上传</li>
@@ -249,7 +337,7 @@
     <link href="http://sidkwok.cn/2017/04/04/css-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/css-collections/</id>
     <published>2017-04-04T03:21:20.000Z</published>
-    <updated>2017-04-04T06:21:43.000Z</updated>
+    <updated>2017-04-04T17:16:50.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="参考标准"><a href="#参考标准" class="headerlink" title="参考标准"></a>参考标准</h2><ul>
 <li><strong><a href="http://caniuse.com/" target="_blank" rel="external">Can I Use</a></strong>，浏览器兼容性查询，也可以查javascript</li>
@@ -289,10 +377,8 @@
 <li><strong><a href="http://www.css88.com/doc/sass/" target="_blank" rel="external">sass 中文文档</a></strong></li>
 <li><strong><a href="http://bennettfeely.com/clippy/" target="_blank" rel="external">clippy</a></strong>，使用<code>clip</code>来裁剪图像的css代码</li>
 <li><strong><a href="https://1024tools.com/less" target="_blank" rel="external">less转css</a></strong></li>
-<li><strong><a href="http://emoji.muan.co/" target="_blank" rel="external">Emoji Searcher</a></strong>，emoji搜索器，主要用于git的commit</li>
-<li><strong><a href="https://favicon.io/index.html" target="_blank" rel="external">favicon.io</a></strong>，favicon制作器</li>
 <li><strong><a href="https://github.com/sylvainpolletvillard/postcss-grid-kiss" target="_blank" rel="external">grid-kiss</a></strong>，post-css的栅栏系统的插件</li>
-<li><strong><a href="http://jaqen.me/mdpub/" target="_blank" rel="external">Android Material 材料风格图标LOGO生成器</a></strong></li>
+<li><strong><a href="http://anicollection.github.io/#/" target="_blank" rel="external">AniCollection</a></strong>，一堆动画合集</li>
 </ul>
 <h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><ul>
 <li><strong><a href="https://tympanus.net/Development/AnimatedCheckboxes/" target="_blank" rel="external">AnimatedCheckboxes</a></strong>，有动画效果的checkbox</li>
