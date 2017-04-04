@@ -1,7 +1,7 @@
 ---
 title: CSS-集合
 date: 2017-04-04 11:21:20
-tags: css
+tags: [css, tech]
 ---
 
 ## 参考标准
@@ -23,6 +23,11 @@ tags: css
 * **[CSS Loader](http://www.raphaelfabeni.com.br/css-loader/)**，css加载动画，这个是占满整个屏幕的，而不是单单一个icon
 * **[parallax](https://picturepan2.github.io/spectre/experimentals.html#parallax)**，移动鼠标屏幕会跟着3d移动
 * **[bttn.css](http://bttn.surge.sh/)**，button样式集合
+* **[CSShake](https://elrumordelaluz.github.io/csshake/)**，疯狂摇摆
+* **[balloon.css](https://kazzkiq.github.io/balloon.css/)**，提示框
+* **[loaders.css](https://connoratherton.com/loaders)**，一堆css加载动画
+* **[]()**，
+* **[]()**，
 
 ## Icon
 * **[阿里巴巴矢量图标库](http://www.iconfont.cn/plus)**，可以搜索相关的icon并自定义
@@ -40,6 +45,7 @@ tags: css
 * **[Emoji Searcher](http://emoji.muan.co/)**，emoji搜索器，主要用于git的commit
 * **[favicon.io](https://favicon.io/index.html)**，favicon制作器
 * **[grid-kiss](https://github.com/sylvainpolletvillard/postcss-grid-kiss)**，post-css的栅栏系统的插件
+* **[Android Material 材料风格图标LOGO生成器](http://jaqen.me/mdpub/)**
 
 ## 例子
 * **[AnimatedCheckboxes](https://tympanus.net/Development/AnimatedCheckboxes/)**，有动画效果的checkbox
@@ -53,3 +59,4 @@ tags: css
 * **[Pure CSS Header Menu](http://codepen.io/suez/pen/gPRjBo)**，菜单展开
 * **[Building a Vertical Timeline With CSS and a Touch of JavaScript](http://codepen.io/tutsplus/pen/QNeJgR)**，时间轴
 * **[Leaderboard](http://codepen.io/supah/pen/WwrJpw)**，列表
+* **[IconHoverEffects/](https://tympanus.net/Development/IconHoverEffects/)**，hover icon的效果

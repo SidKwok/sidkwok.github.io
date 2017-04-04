@@ -1,7 +1,7 @@
 ---
 title: git
 date: 2017-02-08 16:55:03
-tags: Tech
+tags: tech
 ---
 
 ```bash

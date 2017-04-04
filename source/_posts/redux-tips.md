@@ -1,7 +1,7 @@
 ---
 title: Redux
 date: 2017-03-08 13:51:27
-tags: tech
+tags: [tech, react]
 ---
 
 ## redux-thunk

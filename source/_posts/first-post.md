@@ -1,7 +1,7 @@
 ---
 title: 2017 清单
 date: 2017-01-19 21:09:31
-tags:
+tags: goal
 ---
 
 [ ] 完成一个简单的mvvm框架
@@ -18,10 +18,3 @@ tags:
 [ ] 当一个实事求是的人
 [ ] 自我管理
 [ ] 把好玩有趣的东西分段享受
-
-```javascript
-export default {
-    name: 'app',
-    component: Hello
-}
-```

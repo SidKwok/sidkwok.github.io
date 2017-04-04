@@ -1,5 +1,5 @@
 ---
-title: It is time to end it.
+title: It's time to end it.
 date: 2017-03-02 23:57:28
 tags: me
 ---

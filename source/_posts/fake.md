@@ -1,7 +1,7 @@
 ---
 title: 我很假
 date: 2017-02-06 21:47:20
-tags: philosophy, me
+tags: [philosophy, me]
 ---
 我很假。
 
