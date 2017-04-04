@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="参考
+JavaScript 参考文档
+
+文档
+Gulp 中文文档
+Flow 中文文档,
+TypeScript 中文文档
+lodash 官方文档
+lodash 中文文档，v3.10.1
+jQuery 文档
+
+库
+Dropzone.js，拖拽上传
+Bounce.js，Bounce js动画，很Q弹
+Dynamics.js，带有物理效果的动画
+Slideout.js，滑动菜单的效果，用于手机
+Zoomi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript-集合">
+<meta property="og:url" content="http://sidkwok.cn/2017/04/04/js-collections/index.html">
+<meta property="og:site_name" content="Sid's Blog">
+<meta property="og:description" content="参考
+JavaScript 参考文档
+
+文档
+Gulp 中文文档
+Flow 中文文档,
+TypeScript 中文文档
+lodash 官方文档
+lodash 中文文档，v3.10.1
+jQuery 文档
+
+库
+Dropzone.js，拖拽上传
+Bounce.js，Bounce js动画，很Q弹
+Dynamics.js，带有物理效果的动画
+Slideout.js，滑动菜单的效果，用于手机
+Zoomi">
+<meta property="og:updated_time" content="2017-04-04T06:23:24.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="JavaScript-集合">
+<meta name="twitter:description" content="参考
+JavaScript 参考文档
+
+文档
+Gulp 中文文档
+Flow 中文文档,
+TypeScript 中文文档
+lodash 官方文档
+lodash 中文文档，v3.10.1
+jQuery 文档
+
+库
+Dropzone.js，拖拽上传
+Bounce.js，Bounce js动画，很Q弹
+Dynamics.js，带有物理效果的动画
+Slideout.js，滑动菜单的效果，用于手机
+Zoomi">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>JavaScript-集合</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+    <link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- rss -->
+    
+    
+    <!-- jquery -->
+    <script src="/lib/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/SidKwok">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2017/04/04/vue-collection/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover='$("#i-prev").toggle();' onmouseout='$("#i-prev").toggle();'></i></a></li>
+        
+        
+        <li><a class="icon" href="/2017/04/04/css-collections/"><i class="fa fa-chevron-right" aria-hidden="true" onmouseover='$("#i-next").toggle();' onmouseout='$("#i-next").toggle();'></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://sidkwok.cn/2017/04/04/js-collections/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://sidkwok.cn/2017/04/04/js-collections/&text=JavaScript-集合"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://sidkwok.cn/2017/04/04/js-collections/&is_video=false&description=JavaScript-集合"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=JavaScript-集合&body=Check out this article: http://sidkwok.cn/2017/04/04/js-collections/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://sidkwok.cn/2017/04/04/js-collections/&name=JavaScript-集合&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#参考"><span class="toc-number">1.</span> <span class="toc-text">参考</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文档"><span class="toc-number">2.</span> <span class="toc-text">文档</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#库"><span class="toc-number">3.</span> <span class="toc-text">库</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index width mx-auto px2 my4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        JavaScript-集合
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Sid's Blog</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2017-04-04T04:27:31.000Z" itemprop="datePublished">2017-04-04</time>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/tags/javascript/">javascript</a>, <a class="tag-link" href="/tags/tech/">tech</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><strong><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" target="_blank" rel="external">JavaScript 参考文档</a></strong></li>
+</ul>
+<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="http://www.gulpjs.com.cn/" target="_blank" rel="external">Gulp 中文文档</a></strong></li>
+<li><strong><a href="https://zhenyong.github.io/flowtype/" target="_blank" rel="external">Flow 中文文档</a></strong>,</li>
+<li><strong><a href="https://www.tslang.cn/" target="_blank" rel="external">TypeScript 中文文档</a></strong></li>
+<li><strong><a href="https://lodash.com/docs/4.17.4" target="_blank" rel="external">lodash 官方文档</a></strong></li>
+<li><strong><a href="http://lodashjs.com/docs/" target="_blank" rel="external">lodash 中文文档</a></strong>，v3.10.1</li>
+<li><strong><a href="http://www.css88.com/jqapi-1.9/" target="_blank" rel="external">jQuery 文档</a></strong></li>
+</ul>
+<h2 id="库"><a href="#库" class="headerlink" title="库"></a>库</h2><ul>
+<li><strong><a href="http://www.dropzonejs.com/" target="_blank" rel="external">Dropzone.js</a></strong>，拖拽上传</li>
+<li><strong><a href="http://bouncejs.com/" target="_blank" rel="external">Bounce.js</a></strong>，Bounce js动画，很Q弹</li>
+<li><strong><a href="http://dynamicsjs.com/" target="_blank" rel="external">Dynamics.js</a></strong>，带有物理效果的动画</li>
+<li><strong><a href="https://slideout.js.org/" target="_blank" rel="external">Slideout.js</a></strong>，滑动菜单的效果，用于手机</li>
+<li><strong><a href="http://desmonding.me/zooming/" target="_blank" rel="external">Zooming</a></strong>，图像放大效果</li>
+<li><strong><a href="https://christinecha.github.io/choreographer-js/" target="_blank" rel="external">Choreographer.js</a></strong>，动画库，能够处理复杂的css</li>
+<li><strong><a href="https://popper.js.org/" target="_blank" rel="external">Popper.js</a></strong>，轻量的弹出框，不同于modal的弹出</li>
+<li><strong><a href="http://anime-js.com/" target="_blank" rel="external">anime.js</a></strong>，动画库</li>
+<li><strong><a href="http://faisalman.github.io/ua-parser-js/" target="_blank" rel="external">UAParser.js</a></strong>，分析浏览器UA</li>
+<li><strong><a href="https://github.com/ecomfe/aop" target="_blank" rel="external">uaop</a></strong>，ecomfe写的aop库</li>
+<li><strong><a href="https://github.com/cujojs/meld" target="_blank" rel="external">meld.js</a></strong>，aop库</li>
+<li><strong><a href="https://github.com/ebidel/appmetrics.js" target="_blank" rel="external">appmetrics.js</a></strong>，分析页面信息然后上传到google analysis</li>
+<li><strong><a href="http://ricostacruz.com/nprogress/" target="_blank" rel="external">NProgress.js</a></strong>，头部加载条</li>
+<li><strong><a href="http://listjs.com/" target="_blank" rel="external">List.js</a></strong>，处理列表的库，支持搜索排序等功能</li>
+<li><strong><a href="http://kenwheeler.github.io/slick" target="_blank" rel="external">Slick.js</a></strong>，轮播</li>
+<li><strong><a href="https://github.com/jlmakes/scrollreveal" target="_blank" rel="external">Scrollreveal.js</a></strong>，滚动效果</li>
+<li><strong><a href="http://kushagragour.in/lab/superplaceholderjs/" target="_blank" rel="external">superplaceholder.js</a></strong>，placeholder动画</li>
+<li><strong><a href="http://t4t5.github.io/sweetalert/" target="_blank" rel="external">sweetalert,js</a></strong>，弹出提示</li>
+<li><strong><a href="http://impress.github.io/impress.js" target="_blank" rel="external">impress.js</a></strong>，类似ppt，设计感爆炸的ppt</li>
+<li><strong><a href="https://okazari.github.io/Rythm.js/" target="_blank" rel="external">Rythm.js</a></strong>，声音控制节奏移动dom</li>
+<li><strong><a href="https://hsnaydd.github.io/moveTo/demo/" target="_blank" rel="external">moveTo.js</a></strong>，移动到页面相应位置(回到顶部)</li>
+<li><strong><a href="http://carlosroso.com/notyf/" target="_blank" rel="external">Notyf</a></strong>，轻量提示框</li>
+<li><strong><a href="http://nosir.github.io/cleave.js/" target="_blank" rel="external">Cleave.js</a></strong>，表单输入的时候自动格式化</li>
+<li><strong><a href="https://micku7zu.github.io/vanilla-tilt.js/index.html" target="_blank" rel="external">vanilla-tilt.js</a></strong>，3d视差移动</li>
+<li><strong><a href="https://github.com/kciter/qart.js" target="_blank" rel="external">qart.js</a></strong>，二维码，支持自定义</li>
+<li><strong><a href="http://anguscroll.com/just/" target="_blank" rel="external">Just</a></strong>，工具函数库，是一堆独立的库，功能类似lodash</li>
+<li><strong><a href="https://github.com/BetterJS/badjs-report" target="_blank" rel="external">badjs</a></strong>，前端性能监测</li>
+<li><strong><a href="https://github.com/MaxArt2501/re-build" target="_blank" rel="external">re-build</a></strong>，用自然语言写正则表达式</li>
+<li><strong><a href="http://snapsvg.io/" target="_blank" rel="external">Snap.svg</a></strong>，svg动画库</li>
+<li><strong><a href="https://jrainlau.github.io/sphinx/" target="_blank" rel="external">sphinx</a></strong>，将字符串转化为base64编码并生成图像</li>
+<li><strong><a href="http://prinzhorn.github.io/skrollr/" target="_blank" rel="external">skrollr</a></strong>，滚动动画</li>
+<li><strong><a href="https://sarcadass.github.io/granim.js/" target="_blank" rel="external">Granim.js</a></strong>，渐变动画，超帅</li>
+<li><strong><a href="https://chmln.github.io/flatpickr/" target="_blank" rel="external">flatpickr</a></strong>，最好用的日历选择器</li>
+<li><strong><a href="https://camwiegert.github.io/baffle/" target="_blank" rel="external">baffle.js</a></strong>，很炫的文字模糊显示效果</li>
+<li><strong><a href="https://github.com/sachinchoolur/lightgallery.js" target="_blank" rel="external">lightgallery.js</a></strong>，图片幻灯片</li>
+<li><strong><a href="http://idangero.us/swiper/" target="_blank" rel="external">Swiper</a></strong>，滑动幻灯片</li>
+<li><strong><a href="http://voxelcss.com/" target="_blank" rel="external">voxelcss</a></strong>，不知道怎么形容，3d就对了</li>
+<li><strong><a href="https://terwanerik.github.io/ScrollTrigger/" target="_blank" rel="external">ScrollTrigger</a></strong>，滚动触发</li>
+<li><strong><a href="https://clipboardjs.com/" target="_blank" rel="external">clipboard.js</a></strong>，最好用的复制粘贴，支持ie9以上</li>
+<li><strong><a href="http://hammerjs.github.io/" target="_blank" rel="external">hammer.js</a></strong>，移动端触摸库</li>
+<li><strong><a href="http://www.rich-harris.co.uk/ramjet/" target="_blank" rel="external">ramjet</a></strong>，dom转换动画</li>
+</ul>
+
+  </div>
+</article>
+
+
+
+    </div>
+    
+      <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/SidKwok">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#参考"><span class="toc-number">1.</span> <span class="toc-text">参考</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#文档"><span class="toc-number">2.</span> <span class="toc-text">文档</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#库"><span class="toc-number">3.</span> <span class="toc-text">库</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=http://sidkwok.cn/2017/04/04/js-collections/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=http://sidkwok.cn/2017/04/04/js-collections/&text=JavaScript-集合"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=http://sidkwok.cn/2017/04/04/js-collections/&is_video=false&description=JavaScript-集合"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=JavaScript-集合&body=Check out this article: http://sidkwok.cn/2017/04/04/js-collections/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=http://sidkwok.cn/2017/04/04/js-collections/&title=JavaScript-集合"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=http://sidkwok.cn/2017/04/04/js-collections/&name=JavaScript-集合&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+    
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2017 Sid Kwok
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="http://github.com/SidKwok">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    <script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- Google Analytics -->
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m) {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-86660611-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+<!-- Disqus Comments -->
+
+
+</body>
+</html>

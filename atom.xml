@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-04-04T04:24:48.000Z</updated>
+  <updated>2017-04-04T05:55:05.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -16,11 +16,230 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>webpack-collection</title>
+    <link href="http://sidkwok.cn/2017/04/04/webpack-collection/"/>
+    <id>http://sidkwok.cn/2017/04/04/webpack-collection/</id>
+    <published>2017-04-04T05:51:33.000Z</published>
+    <updated>2017-04-04T05:55:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="https://doc.webpack-china.org/" target="_blank" rel="external">webpack2 中文文档</a></strong></li>
+</ul>
+<h2 id="loaders"><a href="#loaders" class="headerlink" title="loaders"></a>loaders</h2><ul>
+<li><strong><a href="https://github.com/babel/babel-loader" target="_blank" rel="external">babel-loader</a></strong>，转换es6或者jsx用的</li>
+<li><strong><a href="https://github.com/webpack-contrib/css-loader" target="_blank" rel="external">css-loader</a></strong>，识别css文件的</li>
+</ul>
+<h2 id="plugins"><a href="#plugins" class="headerlink" title="plugins"></a>plugins</h2><ul>
+<li><strong><a href="https://github.com/jantimon/html-webpack-plugin" target="_blank" rel="external">html-webpack-plugin</a></strong>，解析html文件</li>
+<li><strong><a href="https://github.com/webpack-contrib/extract-text-webpack-plugin" target="_blank" rel="external">extract-text-webpack-plugin</a></strong>，将样式文件输出到单独的文件里面</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;文档&quot;&gt;&lt;a href=&quot;#文档&quot; class=&quot;headerlink&quot; title=&quot;文档&quot;&gt;&lt;/a&gt;文档&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://doc.webpack-china.org/&quot; target=&quot;_blank&quot;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="javascript" scheme="http://sidkwok.cn/tags/javascript/"/>
+    
+      <category term="webpack" scheme="http://sidkwok.cn/tags/webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>react-collection</title>
+    <link href="http://sidkwok.cn/2017/04/04/react-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/react-collections/</id>
+    <published>2017-04-04T05:23:41.000Z</published>
+    <updated>2017-04-04T06:00:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="http://cn.redux.js.org/" target="_blank" rel="external">Redux 中文文档</a></strong></li>
+<li><strong><a href="http://react-guide.github.io/react-router-cn/" target="_blank" rel="external">react-router v3 中文文档</a></strong></li>
+<li><strong><a href="https://reacttraining.cn/web/guides/quick-start" target="_blank" rel="external">react-router v4 中文文档</a></strong></li>
+<li><strong><a href="http://reactnative.cn/" target="_blank" rel="external">react-native 中文文档</a></strong></li>
+</ul>
+<h2 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h2><ul>
+<li><strong><a href="https://github.com/styled-components/styled-components" target="_blank" rel="external">styled-components</a></strong>，样式组件</li>
+<li><strong><a href="https://github.com/unsplash/react-trend" target="_blank" rel="external">react-trend</a></strong></li>
+<li><strong><a href="https://motion.ant.design/" target="_blank" rel="external">Ant Motion</a></strong>，react动画库</li>
+<li><strong><a href="https://github.com/zeit/styled-jsx" target="_blank" rel="external">styled-jsx</a></strong>，用jsx写样式，略像vue的scoped css</li>
+<li><strong><a href="https://elrumordelaluz.github.io/reactour/" target="_blank" rel="external">reactour</a></strong>，提示步骤组件</li>
+<li><strong><a href="http://jedwatson.github.io/react-select/" target="_blank" rel="external">react-select</a></strong>，支持单选多选搜索的表单</li>
+<li><strong><a href="http://react-springy-parallax.surge.sh/" target="_blank" rel="external">react-springy-parallax</a></strong>，视差动画</li>
+<li><strong><a href="https://react-overdrive.now.sh/" target="_blank" rel="external">react-overdrive</a></strong>，element之间的转换，对于router的切换动画很有用</li>
+</ul>
+<h2 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h2><ul>
+<li><strong><a href="https://ant.design/docs/react/introduce-cn" target="_blank" rel="external">Ant Design</a></strong></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;文档&quot;&gt;&lt;a href=&quot;#文档&quot; class=&quot;headerlink&quot; title=&quot;文档&quot;&gt;&lt;/a&gt;文档&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://cn.redux.js.org/&quot; target=&quot;_blank&quot; rel=&quot;e
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="javascript" scheme="http://sidkwok.cn/tags/javascript/"/>
+    
+      <category term="react" scheme="http://sidkwok.cn/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vue-collection</title>
+    <link href="http://sidkwok.cn/2017/04/04/vue-collection/"/>
+    <id>http://sidkwok.cn/2017/04/04/vue-collection/</id>
+    <published>2017-04-04T05:23:29.000Z</published>
+    <updated>2017-04-04T06:00:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="https://cn.vuejs.org/" target="_blank" rel="external">Vue.js 中文文档</a></strong></li>
+<li><strong><a href="http://router.vuejs.org/zh-cn/index.html" target="_blank" rel="external">vue-router2 中文文档</a></strong></li>
+<li><strong><a href="http://vuex.vuejs.org/zh-cn/intro.html" target="_blank" rel="external">Vuex2 中文文档</a></strong></li>
+<li><strong><a href="http://vuejs-templates.github.io/webpack/index.html" target="_blank" rel="external">vue-cli 文档</a></strong></li>
+<li><strong><a href="https://cn.nuxtjs.org/" target="_blank" rel="external">Nuxt.js 中文文档</a></strong></li>
+</ul>
+<h2 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h2><ul>
+<li><strong><a href="http://hilongjw.github.io/vue-progressbar/" target="_blank" rel="external">vue-progressbar</a></strong>，上方加载条(绿色)</li>
+<li><strong><a href="https://dalphyx.github.io/vue-top-progress/" target="_blank" rel="external">vue-top-progress</a></strong>，上方加载条(蓝色)</li>
+<li><strong><a href="http://greyby.github.io/vue-spinner/" target="_blank" rel="external">vue-spinner</a></strong>，加载动画</li>
+<li><strong><a href="http://miaolz123.github.io/vue-markdown/" target="_blank" rel="external">vue-markdown</a></strong>，转化markdown为html</li>
+<li><strong><a href="https://justineo.github.io/vue-awesome/demo/" target="_blank" rel="external">vue-awesome</a></strong>，font awsome的vue版</li>
+<li><strong><a href="http://monterail.github.io/vue-multiselect/" target="_blank" rel="external">vue-multiselect</a></strong>，支持单选多选和搜索的表单</li>
+<li><strong><a href="http://hilongjw.github.io/vue-lazyload/" target="_blank" rel="external">vue-lazyload</a></strong>，图像的懒加载</li>
+<li><strong><a href="https://github.com/ktquez/vue-head" target="_blank" rel="external">vue-head</a></strong>，定义head标签的内容</li>
+<li><strong><a href="http://xiaokaike.github.io/vue-clipboard/" target="_blank" rel="external">vue-clipboard</a></strong>，vue与clipboard的绑定</li>
+<li><strong><a href="http://astray-git.github.io/vue-dragula/" target="_blank" rel="external">vue-dragula</a></strong>，vue和dragula的结合</li>
+<li><strong><a href="https://hejx.herokuapp.com/vue-dndl" target="_blank" rel="external">vue-dndl</a></strong>，列表之间的拖拽</li>
+<li><strong><a href="https://monterail.github.io/vuelidate/" target="_blank" rel="external">vuelidate</a></strong>，比较轻量的vue表单验证</li>
+<li><strong><a href="https://elemefe.github.io/vue-amap/#/" target="_blank" rel="external">vue-amap</a></strong>，vue的高德地图</li>
+<li><strong><a href="https://surmon-china.github.io/vue-video-player/" target="_blank" rel="external">vue-video-player</a></strong>，视频播放</li>
+<li><strong><a href="https://github.com/egoist/vue-timeago" target="_blank" rel="external">vue-timeago</a></strong></li>
+<li><strong><a href="https://github.com/QingWei-Li/vue-trend" target="_blank" rel="external">vue-trend</a></strong></li>
+<li><strong><a href="https://rigor789.github.io/vue-scrollto/#/" target="_blank" rel="external">vue-scrollto</a></strong>，滚动到</li>
+<li><strong><a href="https://github.com/pespantelis/vue-typeahead" target="_blank" rel="external">vue-typeahead</a></strong></li>
+</ul>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul>
+<li><strong><a href="https://qingwei-li.github.io/vuep/" target="_blank" rel="external">vuep</a></strong>，在线编辑vue组件</li>
+</ul>
+<h2 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h2><ul>
+<li><strong><a href="https://www.iviewui.com/" target="_blank" rel="external">iview</a></strong>，ant design的vue实现</li>
+<li><strong><a href="http://element.eleme.io/#/zh-CN" target="_blank" rel="external">Element</a></strong>，饿了么ui</li>
+<li><strong><a href="https://vuetifyjs.com/" target="_blank" rel="external">vuetifyjs</a></strong>，Material Design</li>
+<li><strong><a href="http://www.muse-ui.org/" target="_blank" rel="external">muse-ui</a></strong>，Material Design 中文</li>
+<li><strong><a href="https://vux.li/demos/v2/?x-page=v2-doc-home#/" target="_blank" rel="external">vux</a></strong>，移动端wechat样式</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;文档&quot;&gt;&lt;a href=&quot;#文档&quot; class=&quot;headerlink&quot; title=&quot;文档&quot;&gt;&lt;/a&gt;文档&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://cn.vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;ext
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="javascript" scheme="http://sidkwok.cn/tags/javascript/"/>
+    
+      <category term="vue" scheme="http://sidkwok.cn/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript-集合</title>
+    <link href="http://sidkwok.cn/2017/04/04/js-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/js-collections/</id>
+    <published>2017-04-04T04:27:31.000Z</published>
+    <updated>2017-04-04T06:23:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><strong><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" target="_blank" rel="external">JavaScript 参考文档</a></strong></li>
+</ul>
+<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="http://www.gulpjs.com.cn/" target="_blank" rel="external">Gulp 中文文档</a></strong></li>
+<li><strong><a href="https://zhenyong.github.io/flowtype/" target="_blank" rel="external">Flow 中文文档</a></strong>,</li>
+<li><strong><a href="https://www.tslang.cn/" target="_blank" rel="external">TypeScript 中文文档</a></strong></li>
+<li><strong><a href="https://lodash.com/docs/4.17.4" target="_blank" rel="external">lodash 官方文档</a></strong></li>
+<li><strong><a href="http://lodashjs.com/docs/" target="_blank" rel="external">lodash 中文文档</a></strong>，v3.10.1</li>
+<li><strong><a href="http://www.css88.com/jqapi-1.9/" target="_blank" rel="external">jQuery 文档</a></strong></li>
+</ul>
+<h2 id="库"><a href="#库" class="headerlink" title="库"></a>库</h2><ul>
+<li><strong><a href="http://www.dropzonejs.com/" target="_blank" rel="external">Dropzone.js</a></strong>，拖拽上传</li>
+<li><strong><a href="http://bouncejs.com/" target="_blank" rel="external">Bounce.js</a></strong>，Bounce js动画，很Q弹</li>
+<li><strong><a href="http://dynamicsjs.com/" target="_blank" rel="external">Dynamics.js</a></strong>，带有物理效果的动画</li>
+<li><strong><a href="https://slideout.js.org/" target="_blank" rel="external">Slideout.js</a></strong>，滑动菜单的效果，用于手机</li>
+<li><strong><a href="http://desmonding.me/zooming/" target="_blank" rel="external">Zooming</a></strong>，图像放大效果</li>
+<li><strong><a href="https://christinecha.github.io/choreographer-js/" target="_blank" rel="external">Choreographer.js</a></strong>，动画库，能够处理复杂的css</li>
+<li><strong><a href="https://popper.js.org/" target="_blank" rel="external">Popper.js</a></strong>，轻量的弹出框，不同于modal的弹出</li>
+<li><strong><a href="http://anime-js.com/" target="_blank" rel="external">anime.js</a></strong>，动画库</li>
+<li><strong><a href="http://faisalman.github.io/ua-parser-js/" target="_blank" rel="external">UAParser.js</a></strong>，分析浏览器UA</li>
+<li><strong><a href="https://github.com/ecomfe/aop" target="_blank" rel="external">uaop</a></strong>，ecomfe写的aop库</li>
+<li><strong><a href="https://github.com/cujojs/meld" target="_blank" rel="external">meld.js</a></strong>，aop库</li>
+<li><strong><a href="https://github.com/ebidel/appmetrics.js" target="_blank" rel="external">appmetrics.js</a></strong>，分析页面信息然后上传到google analysis</li>
+<li><strong><a href="http://ricostacruz.com/nprogress/" target="_blank" rel="external">NProgress.js</a></strong>，头部加载条</li>
+<li><strong><a href="http://listjs.com/" target="_blank" rel="external">List.js</a></strong>，处理列表的库，支持搜索排序等功能</li>
+<li><strong><a href="http://kenwheeler.github.io/slick" target="_blank" rel="external">Slick.js</a></strong>，轮播</li>
+<li><strong><a href="https://github.com/jlmakes/scrollreveal" target="_blank" rel="external">Scrollreveal.js</a></strong>，滚动效果</li>
+<li><strong><a href="http://kushagragour.in/lab/superplaceholderjs/" target="_blank" rel="external">superplaceholder.js</a></strong>，placeholder动画</li>
+<li><strong><a href="http://t4t5.github.io/sweetalert/" target="_blank" rel="external">sweetalert,js</a></strong>，弹出提示</li>
+<li><strong><a href="http://impress.github.io/impress.js" target="_blank" rel="external">impress.js</a></strong>，类似ppt，设计感爆炸的ppt</li>
+<li><strong><a href="https://okazari.github.io/Rythm.js/" target="_blank" rel="external">Rythm.js</a></strong>，声音控制节奏移动dom</li>
+<li><strong><a href="https://hsnaydd.github.io/moveTo/demo/" target="_blank" rel="external">moveTo.js</a></strong>，移动到页面相应位置(回到顶部)</li>
+<li><strong><a href="http://carlosroso.com/notyf/" target="_blank" rel="external">Notyf</a></strong>，轻量提示框</li>
+<li><strong><a href="http://nosir.github.io/cleave.js/" target="_blank" rel="external">Cleave.js</a></strong>，表单输入的时候自动格式化</li>
+<li><strong><a href="https://micku7zu.github.io/vanilla-tilt.js/index.html" target="_blank" rel="external">vanilla-tilt.js</a></strong>，3d视差移动</li>
+<li><strong><a href="https://github.com/kciter/qart.js" target="_blank" rel="external">qart.js</a></strong>，二维码，支持自定义</li>
+<li><strong><a href="http://anguscroll.com/just/" target="_blank" rel="external">Just</a></strong>，工具函数库，是一堆独立的库，功能类似lodash</li>
+<li><strong><a href="https://github.com/BetterJS/badjs-report" target="_blank" rel="external">badjs</a></strong>，前端性能监测</li>
+<li><strong><a href="https://github.com/MaxArt2501/re-build" target="_blank" rel="external">re-build</a></strong>，用自然语言写正则表达式</li>
+<li><strong><a href="http://snapsvg.io/" target="_blank" rel="external">Snap.svg</a></strong>，svg动画库</li>
+<li><strong><a href="https://jrainlau.github.io/sphinx/" target="_blank" rel="external">sphinx</a></strong>，将字符串转化为base64编码并生成图像</li>
+<li><strong><a href="http://prinzhorn.github.io/skrollr/" target="_blank" rel="external">skrollr</a></strong>，滚动动画</li>
+<li><strong><a href="https://sarcadass.github.io/granim.js/" target="_blank" rel="external">Granim.js</a></strong>，渐变动画，超帅</li>
+<li><strong><a href="https://chmln.github.io/flatpickr/" target="_blank" rel="external">flatpickr</a></strong>，最好用的日历选择器</li>
+<li><strong><a href="https://camwiegert.github.io/baffle/" target="_blank" rel="external">baffle.js</a></strong>，很炫的文字模糊显示效果</li>
+<li><strong><a href="https://github.com/sachinchoolur/lightgallery.js" target="_blank" rel="external">lightgallery.js</a></strong>，图片幻灯片</li>
+<li><strong><a href="http://idangero.us/swiper/" target="_blank" rel="external">Swiper</a></strong>，滑动幻灯片</li>
+<li><strong><a href="http://voxelcss.com/" target="_blank" rel="external">voxelcss</a></strong>，不知道怎么形容，3d就对了</li>
+<li><strong><a href="https://terwanerik.github.io/ScrollTrigger/" target="_blank" rel="external">ScrollTrigger</a></strong>，滚动触发</li>
+<li><strong><a href="https://clipboardjs.com/" target="_blank" rel="external">clipboard.js</a></strong>，最好用的复制粘贴，支持ie9以上</li>
+<li><strong><a href="http://hammerjs.github.io/" target="_blank" rel="external">hammer.js</a></strong>，移动端触摸库</li>
+<li><strong><a href="http://www.rich-harris.co.uk/ramjet/" target="_blank" rel="external">ramjet</a></strong>，dom转换动画</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/Ja
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="javascript" scheme="http://sidkwok.cn/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>CSS-集合</title>
-    <link href="http://sidkwok.cn/2017/04/04/css-libs/"/>
-    <id>http://sidkwok.cn/2017/04/04/css-libs/</id>
+    <link href="http://sidkwok.cn/2017/04/04/css-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/css-collections/</id>
     <published>2017-04-04T03:21:20.000Z</published>
-    <updated>2017-04-04T04:24:48.000Z</updated>
+    <updated>2017-04-04T06:21:43.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="参考标准"><a href="#参考标准" class="headerlink" title="参考标准"></a>参考标准</h2><ul>
 <li><strong><a href="http://caniuse.com/" target="_blank" rel="external">Can I Use</a></strong>，浏览器兼容性查询，也可以查javascript</li>
@@ -41,6 +260,11 @@
 <li><strong><a href="http://www.raphaelfabeni.com.br/css-loader/" target="_blank" rel="external">CSS Loader</a></strong>，css加载动画，这个是占满整个屏幕的，而不是单单一个icon</li>
 <li><strong><a href="https://picturepan2.github.io/spectre/experimentals.html#parallax" target="_blank" rel="external">parallax</a></strong>，移动鼠标屏幕会跟着3d移动</li>
 <li><strong><a href="http://bttn.surge.sh/" target="_blank" rel="external">bttn.css</a></strong>，button样式集合</li>
+<li><strong><a href="https://elrumordelaluz.github.io/csshake/" target="_blank" rel="external">CSShake</a></strong>，疯狂摇摆</li>
+<li><strong><a href="https://kazzkiq.github.io/balloon.css/" target="_blank" rel="external">balloon.css</a></strong>，提示框</li>
+<li><strong><a href="https://connoratherton.com/loaders" target="_blank" rel="external">loaders.css</a></strong>，一堆css加载动画</li>
+<li><strong><a href=""></a></strong>，</li>
+<li><strong><a href=""></a></strong>，</li>
 </ul>
 <h2 id="Icon"><a href="#Icon" class="headerlink" title="Icon"></a>Icon</h2><ul>
 <li><strong><a href="http://www.iconfont.cn/plus" target="_blank" rel="external">阿里巴巴矢量图标库</a></strong>，可以搜索相关的icon并自定义</li>
@@ -58,6 +282,7 @@
 <li><strong><a href="http://emoji.muan.co/" target="_blank" rel="external">Emoji Searcher</a></strong>，emoji搜索器，主要用于git的commit</li>
 <li><strong><a href="https://favicon.io/index.html" target="_blank" rel="external">favicon.io</a></strong>，favicon制作器</li>
 <li><strong><a href="https://github.com/sylvainpolletvillard/postcss-grid-kiss" target="_blank" rel="external">grid-kiss</a></strong>，post-css的栅栏系统的插件</li>
+<li><strong><a href="http://jaqen.me/mdpub/" target="_blank" rel="external">Android Material 材料风格图标LOGO生成器</a></strong></li>
 </ul>
 <h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><ul>
 <li><strong><a href="https://tympanus.net/Development/AnimatedCheckboxes/" target="_blank" rel="external">AnimatedCheckboxes</a></strong>，有动画效果的checkbox</li>
@@ -71,6 +296,7 @@
 <li><strong><a href="http://codepen.io/suez/pen/gPRjBo" target="_blank" rel="external">Pure CSS Header Menu</a></strong>，菜单展开</li>
 <li><strong><a href="http://codepen.io/tutsplus/pen/QNeJgR" target="_blank" rel="external">Building a Vertical Timeline With CSS and a Touch of JavaScript</a></strong>，时间轴</li>
 <li><strong><a href="http://codepen.io/supah/pen/WwrJpw" target="_blank" rel="external">Leaderboard</a></strong>，列表</li>
+<li><strong><a href="https://tympanus.net/Development/IconHoverEffects/" target="_blank" rel="external">IconHoverEffects/</a></strong>，hover icon的效果</li>
 </ul>
 ]]></content>
     
@@ -83,6 +309,8 @@
     
     
       <category term="css" scheme="http://sidkwok.cn/tags/css/"/>
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
     
   </entry>
   
@@ -128,7 +356,7 @@
     <link href="http://sidkwok.cn/2017/03/08/redux-tips/"/>
     <id>http://sidkwok.cn/2017/03/08/redux-tips/</id>
     <published>2017-03-08T05:51:27.000Z</published>
-    <updated>2017-03-08T07:48:26.000Z</updated>
+    <updated>2017-04-04T04:32:17.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="redux-thunk"><a href="#redux-thunk" class="headerlink" title="redux-thunk"></a>redux-thunk</h2><p>主要用来处理异步<code>actions</code>，有点像<strong>vuex</strong>中的<code>actions</code>。<strong>vuex</strong>中的<code>actions</code>可以在里面使用一些异步方法，通过<code>commit</code>来达到改变<code>store</code>的目的。而<strong>redux-thunk</strong>则差不多，在<code>thunk</code>函数中异步<code>dispatch</code>。不同的是，<strong>vuex</strong> <code>commit</code>的东西是同步的<code>mutations</code>(在<strong>Redux</strong>中叫<code>actions.type</code>)，而<strong>redux-thunk</strong> <code>dispatch</code>的是<code>actions</code>.</p>
 <h3 id="🌰"><a href="#🌰" class="headerlink" title="🌰"></a>🌰</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// configureStore.js</span></div><div class="line"><span class="keyword">import</span> &#123; createStore, applyMiddleware &#125; <span class="keyword">from</span> <span class="string">'redux'</span>;</div><div class="line"><span class="keyword">import</span> thunk <span class="keyword">from</span> <span class="string">'redux-thunk'</span>;</div><div class="line"><span class="keyword">import</span> rootReducer <span class="keyword">from</span> <span class="string">'./reducers'</span>;</div><div class="line"></div><div class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">configureStore</span>(<span class="params">initialState</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> createStore(</div><div class="line">        rootReducer,</div><div class="line">        initialState,</div><div class="line">        applyMiddleware(thunk)</div><div class="line">    );</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -146,14 +374,16 @@
     
       <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
     
+      <category term="react" scheme="http://sidkwok.cn/tags/react/"/>
+    
   </entry>
   
   <entry>
-    <title>It is time to end it.</title>
+    <title>It&#39;s time to end it.</title>
     <link href="http://sidkwok.cn/2017/03/02/it-is-done/"/>
     <id>http://sidkwok.cn/2017/03/02/it-is-done/</id>
     <published>2017-03-02T15:57:28.000Z</published>
-    <updated>2017-03-02T16:12:13.000Z</updated>
+    <updated>2017-04-04T04:32:10.000Z</updated>
     
     <content type="html"><![CDATA[<p>终于也到了这个时候了。</p>
 <p>那是当然的，毫无作为迎来的只是被别人拿走。</p>
@@ -240,7 +470,7 @@
     <link href="http://sidkwok.cn/2017/02/08/git/"/>
     <id>http://sidkwok.cn/2017/02/08/git/</id>
     <published>2017-02-08T08:55:03.000Z</published>
-    <updated>2017-02-09T11:17:27.000Z</updated>
+    <updated>2017-04-04T04:28:39.000Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 删除本地分支</span></div><div class="line">git branch <span class="_">-d</span> dev</div><div class="line"></div><div class="line"><span class="comment"># 删除远程分支</span></div><div class="line">git push origin <span class="_">-d</span> dev</div><div class="line"></div><div class="line"><span class="comment"># 合并分支</span></div><div class="line">git merge dev</div><div class="line"></div><div class="line"><span class="comment"># 拉取远程分支</span></div><div class="line">git checkout -b dev origin/dev</div></pre></td></tr></table></figure>
 ]]></content>
@@ -252,7 +482,7 @@
     </summary>
     
     
-      <category term="Tech" scheme="http://sidkwok.cn/tags/Tech/"/>
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
     
   </entry>
   
@@ -261,7 +491,7 @@
     <link href="http://sidkwok.cn/2017/02/06/fake/"/>
     <id>http://sidkwok.cn/2017/02/06/fake/</id>
     <published>2017-02-06T13:47:20.000Z</published>
-    <updated>2017-02-07T13:56:34.000Z</updated>
+    <updated>2017-04-04T04:31:15.000Z</updated>
     
     <content type="html"><![CDATA[<p>我很假。</p>
 <p>这种感觉在人潮汹涌的时候特别真实。</p>
@@ -285,7 +515,9 @@
     </summary>
     
     
-      <category term="philosophy, me" scheme="http://sidkwok.cn/tags/philosophy-me/"/>
+      <category term="philosophy" scheme="http://sidkwok.cn/tags/philosophy/"/>
+    
+      <category term="me" scheme="http://sidkwok.cn/tags/me/"/>
     
   </entry>
   
@@ -294,7 +526,7 @@
     <link href="http://sidkwok.cn/2017/02/02/2017-ideas/"/>
     <id>http://sidkwok.cn/2017/02/02/2017-ideas/</id>
     <published>2017-02-01T16:26:02.000Z</published>
-    <updated>2017-02-01T17:44:24.000Z</updated>
+    <updated>2017-04-04T04:30:59.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="关于这个博客"><a href="#关于这个博客" class="headerlink" title="关于这个博客"></a>关于这个博客</h2><p>其实一早就应该开一个博客来发牢骚。</p>
 <p>这个博客会记录关于我心里的一切，我会把我的心情、我的见闻、我的学习记录下来，这是笔记，也是一滩只属于自己的苦水。</p>
@@ -313,7 +545,7 @@
 </ul>
 <h2 id="关于饮食"><a href="#关于饮食" class="headerlink" title="关于饮食"></a>关于饮食</h2><p>上面也说了，在饮食这方面我得有很大的节制才行。我希望学习厨艺，通过下厨来体验一下生活中的快乐。我在北京的一个人住自己做饭的时候，体会到了那种欢乐，但我还是懒，叫了很多次外卖。fuck，2017目标之一是不再叫外卖。饿了么就不能再重新下载了我擦！</p>
 <h2 id="关于旅游"><a href="#关于旅游" class="headerlink" title="关于旅游"></a>关于旅游</h2><p>我发现我并不是一个很热爱旅游的人，可能因为我也没去过几个地方。我希望发现这个世界更多的美好，所以我希望我在2017年可以出一次国，体会一下别人照片中的万水千山。</p>
-<h2 id="关于工作"><a href="#关于工作" class="headerlink" title="关于工作"></a>关于工作</h2><p>当我决定了我要当前端工程师的时候我其实就知道我以后并不能只做前端。前端虽然很有趣(just for me)，但是水有点浅(对于大部分公司只是需要一个会做页面的)。</p>
+<h2 id="关于工作"><a href="#关于工作" class="headerlink" title="关于工作"></a>关于工作</h2><p>当我决定了我要当前端工程师的时候我其实就知道我以后并不能只做前端。前端虽然很有趣(for me)，但是水有点浅(对于大部分公司只是需要一个会做页面的)。</p>
 <p>我并不甘心做一个只会写页面的工程师，虽然我认为我在视图层这方面学的比较好。</p>
 <p>我需要学后端，我需要学<code>Native</code>。</p>
 <p>目标是在今年掌握<code>Nodejs</code>、<code>React</code>和<code>React Native</code>。</p>
@@ -357,10 +589,9 @@
     <link href="http://sidkwok.cn/2017/01/19/first-post/"/>
     <id>http://sidkwok.cn/2017/01/19/first-post/</id>
     <published>2017-01-19T13:09:31.000Z</published>
-    <updated>2017-02-01T13:30:20.000Z</updated>
+    <updated>2017-04-04T04:31:52.000Z</updated>
     
     <content type="html"><![CDATA[<p>[ ] 完成一个简单的mvvm框架<br>[ ] <strong>10KG</strong><br>[ ] <strong>Mingen</strong><br>[ ] 学一种乐器 (包括基础乐理)<br>[ ] 出国旅游一次<br>[ ] 掌握<code>Nodejs</code><br>[ ] 入门<code>php</code><br>[ ] <strong>写一个自己的博客 (hexo or ?)</strong><br>[ ] 深入学习<code>React</code>和<code>React Native</code><br>[ ] 发布一个应用<br>[ ] 每个月看一本书(技术无关)<br>[ ] 当一个实事求是的人<br>[ ] 自我管理<br>[ ] 把好玩有趣的东西分段享受</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</div><div class="line">    <span class="attr">name</span>: <span class="string">'app'</span>,</div><div class="line">    <span class="attr">component</span>: Hello</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
@@ -369,6 +600,8 @@
     
     </summary>
     
+    
+      <category term="goal" scheme="http://sidkwok.cn/tags/goal/"/>
     
   </entry>
   
