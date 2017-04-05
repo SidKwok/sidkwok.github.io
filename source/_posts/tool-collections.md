@@ -8,7 +8,7 @@ tags: tech
 * **[favicon.io](https://favicon.io/index.html)**，favicon制作器
 * **[Android Material 材料风格图标LOGO生成器](http://jaqen.me/mdpub/)**
 * **[fontfling](http://fontfling.com/)**，寻找相应的字体
-* **[生成ASCII字体](http://patorjk.com/software/taag/#p=display&f=Big&t=test)
+* **[生成ASCII字体](http://patorjk.com/software/taag/#p=display&f=Big&t=test)**
 * **[extension-boilerplate](https://www.emailthis.me/open-source/extension-boilerplate)**，浏览器插件脚手架
 * **[slogan](https://egoistian.com/slogan/)**，制作项目icon
 * **[shields](http://shields.io/)**，制作github的readme badge

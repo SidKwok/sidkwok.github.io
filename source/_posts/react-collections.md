@@ -19,6 +19,11 @@ tags: [react, javascript, tech]
 * **[react-select](http://jedwatson.github.io/react-select/)**，支持单选多选搜索的表单
 * **[react-springy-parallax](http://react-springy-parallax.surge.sh/)**，视差动画
 * **[react-overdrive](https://react-overdrive.now.sh/)**，element之间的转换，对于router的切换动画很有用
+* **[React datasheet](https://nadbm.github.io/react-datasheet/)**，像excel那样子去处理表格
+* **[redux search](https://bvaughn.github.io/redux-search/)**，与redux绑定的搜索组件
+* **[polished](https://polished.js.org/)**，css in js，一堆非常有用的样式函数，例如clearFix那些
+* **[]()**，
+* **[]()**，
 
 ## UI
 * **[Ant Design](https://ant.design/docs/react/introduce-cn)**

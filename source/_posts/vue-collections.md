@@ -6,6 +6,7 @@ tags: [vue, tech, javascript]
 
 ## 文档
 * **[Vue.js 中文文档](https://cn.vuejs.org/)**
+* **[vue编码规范](https://pablohpsilva.github.io/vuejs-component-style-guide/#/chinese)**
 * **[vue-router2 中文文档](http://router.vuejs.org/zh-cn/index.html)**
 * **[Vuex2 中文文档](http://vuex.vuejs.org/zh-cn/intro.html)**
 * **[vue-cli 文档](http://vuejs-templates.github.io/webpack/index.html)**
@@ -33,6 +34,11 @@ tags: [vue, tech, javascript]
 
 ## 工具
 * **[vuep](https://qingwei-li.github.io/vuep/)**，在线编辑vue组件
+* **[electron-vue](https://simulatedgreg.gitbooks.io/electron-vue/content/en/)**，electron与vue的脚手架
+* **[vue-plugin-template](https://github.com/posva/vue-plugin-template)**，vue插件脚手架
+* **[]()**，
+* **[]()**，
+* **[]()**，
 
 ## UI
 * **[iview](https://www.iviewui.com/)**，ant design的vue实现
