@@ -34,7 +34,6 @@ tags: [javascript, tech]
 * **[Slideout.js](https://slideout.js.org/)**，滑动菜单的效果，用于手机
 * **[Zooming](http://desmonding.me/zooming/)**，图像放大效果
 * **[NProgress.js](http://ricostacruz.com/nprogress/)**，头部加载条
-* **[Slick.js](http://kenwheeler.github.io/slick)**，轮播
 * **[lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)**，图片幻灯片
 * **[Swiper](http://idangero.us/swiper/)**，滑动幻灯片
 
