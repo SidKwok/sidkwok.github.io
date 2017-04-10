@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-04-09T03:34:09.000Z</updated>
+  <updated>2017-04-10T08:57:42.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -16,48 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>《进击的巨人》--每一个人都应该有自由</title>
-    <link href="http://sidkwok.cn/2017/04/08/attack-on-titan/"/>
-    <id>http://sidkwok.cn/2017/04/08/attack-on-titan/</id>
-    <published>2017-04-08T01:37:05.000Z</published>
-    <updated>2017-04-09T03:34:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>对于悲壮，漫画作品来说，我只服《进击的巨人》。</p>
-<p><img src="/images/attack-on-titan/attack-on-titan_1" alt="attack-on-titan_1"></p>
-<h2 id="耻辱和自由"><a href="#耻辱和自由" class="headerlink" title="耻辱和自由"></a>耻辱和自由</h2><p>人类于巨人，如蝼蚁般渺小，一击下去，血肉模糊。巨人吃人，甚至不是为了填饱肚子，肚子装不下了，就把尸体的残渣吐出来。巨人只为杀戮而杀戮，是一个单纯的屠宰人类的工具。但是人类对此却束手无策。</p>
-<p>这就是耻辱。</p>
-<p>但是作为有灵魂的生物，总会有一群人是不甘于羞辱的。所以便有了反抗的军团。在这个军团里面，作为探索外面世界的调查军团，对于这种羞辱更多了一种不屈的勇气和对自由的渴望。我也许打不赢你，但是我看过外面的世界，我知道真正的自由，纵使和你玉石俱焚，我也绝不低头。</p>
-<h2 id="人物刻画"><a href="#人物刻画" class="headerlink" title="人物刻画"></a>人物刻画</h2><p>我觉得《进击的巨人》里对人物的刻画是很成功的。除了主角真的是太中二了，这种人假如不是有主角光环马上就得死，废柴程度我认为甚至超过了碇真嗣(《新世纪福音战士》–男主角)。但是其他角色描写得很出色，人物的追求和坚忍都表现得特别好。</p>
-<h2 id="艾尔文"><a href="#艾尔文" class="headerlink" title="艾尔文"></a>艾尔文</h2><p>这是我最欣赏的一个角色。</p>
-<p>他是调查兵团的团长，他是最理解他背后那个自由之翼的含义的男人。他追求的自由，不是个人的自由，而是墙壁内全人类的自由。而为了这份自由，他宁愿只身投奔地狱。抛伤重的队友不顾、尽管造成巨大伤亡也要抓住女巨人、颠覆王权。为了解放人类，他宁愿成为那个恶魔。</p>
-<p>在夺回艾伦那场战役尤其壮烈。死了一片人，自己甚至被巨人叼去了一只手，也指这前面说：别管我！继续前进！人类的希望就在前面！献出你们的心脏！</p>
-<p>在最后与野兽巨人的对决中，在自己的梦想与人类的自由的碰撞中，他选择了人类的自由，选择牺牲自己与新兵。但他最后还是犹豫的，利威尔帮他做了个选择，然后他便毅然走向地狱。</p>
-<p>匹西斯：你也许会下地狱吧。</p>
-<p>艾尔文：也许是吧。</p>
-<p>匹西斯：你会有个伴的。</p>
-<p>为了你们的自由，我愿化作修罗。</p>
-<h2 id="待续"><a href="#待续" class="headerlink" title="待续"></a>待续</h2><p>等我想好再写。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;对于悲壮，漫画作品来说，我只服《进击的巨人》。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/attack-on-titan/attack-on-titan_1&quot; alt=&quot;attack-on-titan_1&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;耻辱和自由&quot;&gt;&lt;a href=&quot;
-    
-    </summary>
-    
-    
-      <category term="philosophy" scheme="http://sidkwok.cn/tags/philosophy/"/>
-    
-  </entry>
-  
-  <entry>
     <title>工具集</title>
     <link href="http://sidkwok.cn/2017/04/05/tool-collections/"/>
     <id>http://sidkwok.cn/2017/04/05/tool-collections/</id>
     <published>2017-04-04T17:15:52.000Z</published>
-    <updated>2017-04-05T03:49:53.000Z</updated>
+    <updated>2017-04-10T08:57:42.000Z</updated>
     
     <content type="html"><![CDATA[<ul>
 <li><strong><a href="http://emoji.muan.co/" target="_blank" rel="external">Emoji Searcher</a></strong>，emoji搜索器，主要用于git的commit</li>
@@ -99,7 +62,7 @@
     <link href="http://sidkwok.cn/2017/04/04/css-tips/"/>
     <id>http://sidkwok.cn/2017/04/04/css-tips/</id>
     <published>2017-04-04T09:00:32.000Z</published>
-    <updated>2017-04-04T17:00:15.000Z</updated>
+    <updated>2017-04-10T08:57:42.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="优化显示文本"><a href="#优化显示文本" class="headerlink" title="优化显示文本"></a>优化显示文本</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">html</span> &#123;</div><div class="line">    <span class="attribute">-moz-osx-font-smoothing</span>: grayscale;</div><div class="line">    <span class="attribute">-webkit-font-smoothing</span>: antialiased;</div><div class="line">    <span class="attribute">text-rendering</span>: optimizeLegibility;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p><em>效果(上是优化前，下是优化后)：</em></p>
@@ -144,7 +107,7 @@
     <link href="http://sidkwok.cn/2017/04/04/webpack-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/webpack-collections/</id>
     <published>2017-04-04T05:51:33.000Z</published>
-    <updated>2017-04-04T06:26:21.000Z</updated>
+    <updated>2017-04-10T08:57:42.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
 <li><strong><a href="https://doc.webpack-china.org/" target="_blank" rel="external">webpack2 中文文档</a></strong></li>
@@ -180,7 +143,7 @@
     <link href="http://sidkwok.cn/2017/04/04/react-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/react-collections/</id>
     <published>2017-04-04T05:23:41.000Z</published>
-    <updated>2017-04-05T04:40:57.000Z</updated>
+    <updated>2017-04-10T08:57:42.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
 <li><strong><a href="http://cn.redux.js.org/" target="_blank" rel="external">Redux 中文文档</a></strong></li>
@@ -229,7 +192,7 @@
     <link href="http://sidkwok.cn/2017/04/04/vue-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/vue-collections/</id>
     <published>2017-04-04T05:23:29.000Z</published>
-    <updated>2017-04-05T04:54:19.000Z</updated>
+    <updated>2017-04-10T08:57:42.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
 <li><strong><a href="https://cn.vuejs.org/" target="_blank" rel="external">Vue.js 中文文档</a></strong></li>
@@ -297,7 +260,7 @@
     <link href="http://sidkwok.cn/2017/04/04/js-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/js-collections/</id>
     <published>2017-04-04T04:27:31.000Z</published>
-    <updated>2017-04-09T03:22:22.000Z</updated>
+    <updated>2017-04-10T08:57:42.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
 <li><strong><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" target="_blank" rel="external">JavaScript 参考文档</a></strong></li>
@@ -384,7 +347,7 @@
     <link href="http://sidkwok.cn/2017/04/04/css-collections/"/>
     <id>http://sidkwok.cn/2017/04/04/css-collections/</id>
     <published>2017-04-04T03:21:20.000Z</published>
-    <updated>2017-04-04T17:16:50.000Z</updated>
+    <updated>2017-04-10T08:54:53.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="参考标准"><a href="#参考标准" class="headerlink" title="参考标准"></a>参考标准</h2><ul>
 <li><strong><a href="http://caniuse.com/" target="_blank" rel="external">Can I Use</a></strong>，浏览器兼容性查询，也可以查javascript</li>
@@ -458,48 +421,11 @@
   </entry>
   
   <entry>
-    <title>《乘风破浪》--挺装逼的</title>
-    <link href="http://sidkwok.cn/2017/04/02/duckweed/"/>
-    <id>http://sidkwok.cn/2017/04/02/duckweed/</id>
-    <published>2017-04-02T05:48:49.000Z</published>
-    <updated>2017-04-02T06:12:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>年少时很喜欢韩寒写的书，觉得很有意思，讽刺写的很接地气，很适合像我那时候的中二少年。</p>
-<p>但是我并没有看过韩寒的电影。</p>
-<p>之前有了解过他的电影有点话痨，而且喜欢说一些讨趣的台词。今天可真见识了一番了。</p>
-<p>整部片的故事一句能说完，就是儿子穿越回去和爸爸的一些傻逼的事情。</p>
-<p>这个题材很有意思，如果是奔着温情去的话，应该能把节奏带起来。</p>
-<p>但是韩寒偏偏要玩他那一套书里的黑色幽默。</p>
-<p>整个故事脉络七零八落，像黄志强最后的酒瓶那样子。所有人物感觉都是为了台词而生的，什么“小人物”，什么“加戏”之类的。反正角色说这段子的时候都特别尴尬。当一部戏的剧情服务于台词的时候，这部戏就能贴上一个标签了。装逼。</p>
-<p>但是，电影的布景和bgm出乎意料地好，慢动作镜头也很不错，所以对于电影开头的前20分钟，我可以打四星（五星满分）。虽然电影的内涵和实质性意义真的是一般，但是也的确有可赞之处。</p>
-<p>至于直男癌，我是看不太出来，因为女生的戏份并不多，而且主要剧情也不是在女生方面（真的吗？其实我搞不懂这部电影想说的是父子还是母子）。但谁知道呢，在这个田园女权盛行的网络世界里，反正有些东西不刻意提起女性就是歧视女性，没屌又能干事的就是女权代表。手动摊手。</p>
-<p>但是赵丽颖美啊！以前以为她就是死鱼脸仙女（迪丽热巴，杨幂，唐嫣）那一卦的，没想到她还是那种御气满满的小姐姐啊。</p>
-<p><img src="/images/duckweed/liying.png" alt="li_ying"></p>
-<p>李安儿子也很帅！</p>
-<p><img src="/images/duckweed/lian.png" alt="li_an"></p>
-<p>(再次吐槽这些熟面孔都不知道要干嘛的。。。)</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;年少时很喜欢韩寒写的书，觉得很有意思，讽刺写的很接地气，很适合像我那时候的中二少年。&lt;/p&gt;
-&lt;p&gt;但是我并没有看过韩寒的电影。&lt;/p&gt;
-&lt;p&gt;之前有了解过他的电影有点话痨，而且喜欢说一些讨趣的台词。今天可真见识了一番了。&lt;/p&gt;
-&lt;p&gt;整部片的故事一句能说完，就是儿子穿越
-    
-    </summary>
-    
-    
-      <category term="philosophy" scheme="http://sidkwok.cn/tags/philosophy/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Redux</title>
     <link href="http://sidkwok.cn/2017/03/08/redux-tips/"/>
     <id>http://sidkwok.cn/2017/03/08/redux-tips/</id>
     <published>2017-03-08T05:51:27.000Z</published>
-    <updated>2017-04-04T04:32:17.000Z</updated>
+    <updated>2017-04-10T08:57:42.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="redux-thunk"><a href="#redux-thunk" class="headerlink" title="redux-thunk"></a>redux-thunk</h2><p>主要用来处理异步<code>actions</code>，有点像<strong>vuex</strong>中的<code>actions</code>。<strong>vuex</strong>中的<code>actions</code>可以在里面使用一些异步方法，通过<code>commit</code>来达到改变<code>store</code>的目的。而<strong>redux-thunk</strong>则差不多，在<code>thunk</code>函数中异步<code>dispatch</code>。不同的是，<strong>vuex</strong> <code>commit</code>的东西是同步的<code>mutations</code>(在<strong>Redux</strong>中叫<code>actions.type</code>)，而<strong>redux-thunk</strong> <code>dispatch</code>的是<code>actions</code>.</p>
 <h3 id="🌰"><a href="#🌰" class="headerlink" title="🌰"></a>🌰</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// configureStore.js</span></div><div class="line"><span class="keyword">import</span> &#123; createStore, applyMiddleware &#125; <span class="keyword">from</span> <span class="string">'redux'</span>;</div><div class="line"><span class="keyword">import</span> thunk <span class="keyword">from</span> <span class="string">'redux-thunk'</span>;</div><div class="line"><span class="keyword">import</span> rootReducer <span class="keyword">from</span> <span class="string">'./reducers'</span>;</div><div class="line"></div><div class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">configureStore</span>(<span class="params">initialState</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> createStore(</div><div class="line">        rootReducer,</div><div class="line">        initialState,</div><div class="line">        applyMiddleware(thunk)</div><div class="line">    );</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -518,233 +444,6 @@
       <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
     
       <category term="react" scheme="http://sidkwok.cn/tags/react/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>It&#39;s time to end it.</title>
-    <link href="http://sidkwok.cn/2017/03/02/it-is-done/"/>
-    <id>http://sidkwok.cn/2017/03/02/it-is-done/</id>
-    <published>2017-03-02T15:57:28.000Z</published>
-    <updated>2017-04-04T04:32:10.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>终于也到了这个时候了。</p>
-<p>那是当然的，毫无作为迎来的只是被别人拿走。</p>
-<p>但是，我内心毫无波澜，甚至有点开心。</p>
-<p>而且我发现，有时候你觉得你情深款款，在别人看来只是一个无聊的跟踪狂。</p>
-<p>我以前以为自己在下一盘很大的棋，以为通过无数的积累连上天都能感动。何况一个小女孩？？</p>
-<p>感动个屁啊？</p>
-<p>以后变量名都不写Mingen了。</p>
-<p>Bye Bye～</p>
-<p>（立志当一个快乐且热血的少年～）</p>
-<p><img src="/images/it-is-done/yell.JPG" alt="啊啊啊啊"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;终于也到了这个时候了。&lt;/p&gt;
-&lt;p&gt;那是当然的，毫无作为迎来的只是被别人拿走。&lt;/p&gt;
-&lt;p&gt;但是，我内心毫无波澜，甚至有点开心。&lt;/p&gt;
-&lt;p&gt;而且我发现，有时候你觉得你情深款款，在别人看来只是一个无聊的跟踪狂。&lt;/p&gt;
-&lt;p&gt;我以前以为自己在下一盘很大的棋，以为通过无
-    
-    </summary>
-    
-    
-      <category term="me" scheme="http://sidkwok.cn/tags/me/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>要怎么喜欢上菅田将晖?</title>
-    <link href="http://sidkwok.cn/2017/02/18/talk-about-soda/"/>
-    <id>http://sidkwok.cn/2017/02/18/talk-about-soda/</id>
-    <published>2017-02-18T03:54:24.000Z</published>
-    <updated>2017-02-19T05:09:12.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>从讨厌到爱上(好像有点过)<strong>菅田将晖</strong>，我用了三部剧。</p>
-<p>《校对女孩河野悦子》，《民王》，《濑户内海》。</p>
-<p>《校对》的剧情就不多说了，很狗血的一部时装剧，剧情单薄的一捅就破，但是但是，十元美呀。在《校对》里菅田将晖的设定是一个绝世大帅比，十元看到他直接流口水、本田翼看到他马上想和他同居，那种程度的大帅比。他有多帅？我们来看！</p>
-<p><img src="/images/talk-about-soda/soda_fix_1.JPG" alt="soda_fix_1"></p>
-<p><img src="/images/talk-about-soda/soda_fix_2.JPG" alt="soda_fix_1"></p>
-<p><img src="/images/talk-about-soda/soda_fix_3.JPG" alt="soda_fix_1"></p>
-<p>苏打你丫的也尴尬了吧！</p>
-<p>在《校对》里因为他的设定展现不了太多他的演技，帅比要什么演技，帅就好了啊，就像《cold blue》里的山p，《一吻定情》里的古川雄辉(跑题了啊)。但是…懂的懂。</p>
-<hr>
-<p>但在《民王》里我对他改观了。</p>
-<p>《民王》说的是一部父子灵魂转换的剧，题材不新，谈论的问题也比较假大空，政治哪是你喊两句热血的话就行的。但是胜在幽默感十足，高桥小哥一脸严肃地卖萌应该能圈一波粉。属于虎头蛇尾的作品。</p>
-<p>菅田将晖在里面就是地主家的傻儿子，傻气起来真的特别傻，把傻里傻气的性质发挥的很好。当他变成父亲的灵魂之后就更是出色了，虽然很喜欢吼，但是日本人的演绎向来就夸张的啊（摊手），一旦接受了这个设定之后你会发现苏打吼的还挺可爱的。</p>
-<p><img src="/images/talk-about-soda/soda_min_1.jpg" alt="soda_min_1"><br>（这里笑到喷翔）</p>
-<p><img src="/images/talk-about-soda/soda_min_2.jpg" alt="soda_min_2"><br><img src="/images/talk-about-soda/soda_min_3.jpg" alt="soda_min_1"><br><img src="/images/talk-about-soda/soda_min_4.jpg" alt="soda_min_1"><br>（知英姐姐我爱你！）</p>
-<p>虽然说他还是丑的，但是换了一个发型之后感觉他有灵气多了，果然发型很重要。</p>
-<p>他在这部剧里的逗逼性质发挥的很好，而且父与子之间的转变的演绎也很好。不是所有人都能把灵魂转换玩的这么自然（对不起，Gakki在《父女七日变》里的表演是在欣赏不来）。</p>
-<p>所以说，苏打的卖点是 <strong>萌</strong> and <strong>演技</strong>。</p>
-<hr>
-<p>我之前一直在想，日式少年是不是都像泷谷源治那样爆炸的，或者是像大雄那样子废柴的。</p>
-<p>菅田将晖演的濑户告诉我，还有一种，叫做日式话痨颓废少年风。</p>
-<p><img src="/images/talk-about-soda/soda_lai_2.jpg" alt="soda_lai_2.jpg"></p>
-<p>《濑户内海》说的就是两名少年在台阶上聊天的故事。</p>
-<p><img src="/images/talk-about-soda/soda_lai_1.jpg" alt="soda_lai_1.jpg"></p>
-<p>濑户叽叽喳喳，内海沉静爱吐槽。两名少年啥都聊，上至人际哲学下至小动物。</p>
-<p>我是有点喜欢这种话痨类型的电影的，例如《爱在三部曲》。这部剧谈论的东西并没有上升到殿堂的高度，很普通的就是少年的生活：家人，琐事，宠物，中二，女孩。</p>
-<p>说的是一般人的青春，说的就是我们的青春，而不是《那些年》、《致青春》那种活在小说里面的青春。</p>
-<blockquote>
-<p>为什么青春就一定要跑步流汗？就这样在河边虚度不也挺好的吗？</p>
-</blockquote>
-<p><img src="/images/talk-about-soda/soda_lai_3.jpg" alt="soda_lai_3.jpg"></p>
-<p>苏打哥，你的新剧我都会看的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;从讨厌到爱上(好像有点过)&lt;strong&gt;菅田将晖&lt;/strong&gt;，我用了三部剧。&lt;/p&gt;
-&lt;p&gt;《校对女孩河野悦子》，《民王》，《濑户内海》。&lt;/p&gt;
-&lt;p&gt;《校对》的剧情就不多说了，很狗血的一部时装剧，剧情单薄的一捅就破，但是但是，十元美呀。在《校对》里菅田将晖的设定
-    
-    </summary>
-    
-    
-      <category term="philosophy" scheme="http://sidkwok.cn/tags/philosophy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git</title>
-    <link href="http://sidkwok.cn/2017/02/08/git/"/>
-    <id>http://sidkwok.cn/2017/02/08/git/</id>
-    <published>2017-02-08T08:55:03.000Z</published>
-    <updated>2017-04-04T04:28:39.000Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># 删除本地分支</span></div><div class="line">git branch <span class="_">-d</span> dev</div><div class="line"></div><div class="line"><span class="comment"># 删除远程分支</span></div><div class="line">git push origin <span class="_">-d</span> dev</div><div class="line"></div><div class="line"><span class="comment"># 合并分支</span></div><div class="line">git merge dev</div><div class="line"></div><div class="line"><span class="comment"># 拉取远程分支</span></div><div class="line">git checkout -b dev origin/dev</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div
-    
-    </summary>
-    
-    
-      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我很假</title>
-    <link href="http://sidkwok.cn/2017/02/06/fake/"/>
-    <id>http://sidkwok.cn/2017/02/06/fake/</id>
-    <published>2017-02-06T13:47:20.000Z</published>
-    <updated>2017-04-04T04:31:15.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>我很假。</p>
-<p>这种感觉在人潮汹涌的时候特别真实。</p>
-<p>我会说很多的漂亮话，很少把别人不好的地方给揪出来，尽管我想不通、看不惯。伍乙说我这是想别人开心，是一件好事。但是，我并不想对方开心。这样说也许有歧义，换种说法，其实我压根就没有在乎别人的心情。对方开心与否，对我的内心花园一点波动都没有。这么说好像很冷酷，高高在上的样子。我知道我自己的，我是讨厌一套一套的解释。</p>
-<p>嗯，我很讨厌去解释。</p>
-<p>我不想跟催我吃多点的姑妈解释为什么我要减肥；我不想跟坚持传统的我妈解释为什么我会认为生儿子、拜神这种中国传统对于我来说毫无意义；我不想跟霸道女权主义解释我认为理想的女权主义。</p>
-<p>所以就会变成，我会顺着别人的话说下去。一番讨论下来，别人认为多了一个知己，而我还是自己一个。我也会因为这样失去自己生活的节奏，不想解释减肥导致我会去迎合姑妈吃的更多，导致我和妈妈聊天会经常沉默，导致我夜里深思那一番讨论的时候，异常冷冰。</p>
-<p>我的生活很经常会因为我这个陋习(maybe?)而失去节奏。</p>
-<p>所以我只有在一个人生活的时候才能够拥有自己的节奏。我想说什么就说，想做什么就做。</p>
-<p>但是，</p>
-<p>其实我并不想一直孤单一人。</p>
-<p>没错，就是这种类型的孤独。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我很假。&lt;/p&gt;
-&lt;p&gt;这种感觉在人潮汹涌的时候特别真实。&lt;/p&gt;
-&lt;p&gt;我会说很多的漂亮话，很少把别人不好的地方给揪出来，尽管我想不通、看不惯。伍乙说我这是想别人开心，是一件好事。但是，我并不想对方开心。这样说也许有歧义，换种说法，其实我压根就没有在乎别人的心情。对方开心
-    
-    </summary>
-    
-    
-      <category term="philosophy" scheme="http://sidkwok.cn/tags/philosophy/"/>
-    
-      <category term="me" scheme="http://sidkwok.cn/tags/me/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>有关于我2017想做的一些事情</title>
-    <link href="http://sidkwok.cn/2017/02/02/2017-ideas/"/>
-    <id>http://sidkwok.cn/2017/02/02/2017-ideas/</id>
-    <published>2017-02-01T16:26:02.000Z</published>
-    <updated>2017-04-04T04:30:59.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="关于这个博客"><a href="#关于这个博客" class="headerlink" title="关于这个博客"></a>关于这个博客</h2><p>其实一早就应该开一个博客来发牢骚。</p>
-<p>这个博客会记录关于我心里的一切，我会把我的心情、我的见闻、我的学习记录下来，这是笔记，也是一滩只属于自己的苦水。</p>
-<p>最好也是没有人发现的，这又不是分享，仅仅是我自己的想说的一些话。</p>
-<h2 id="关于文字"><a href="#关于文字" class="headerlink" title="关于文字"></a>关于文字</h2><p>是的，我要重新开始写作了，我要看书，像高中那样热衷于对文学的琢磨。我要将我理性了很久的生活添上感性的色彩。</p>
-<h2 id="关于健康"><a href="#关于健康" class="headerlink" title="关于健康"></a>关于健康</h2><p>2016里我实在是太放纵了，各种零食，各种聚餐，各种晚睡。</p>
-<p>没有任何藉口，其实就是懒，才会导致现在走样的飞起的身材。我和妈妈承诺了，减不了2017年减不了<strong>20斤</strong>就给她买一辆车！我很懒！我得鞭挞自己！我讨厌肥胖的自己！</p>
-<p>最重要！肥胖的自己很丑很丑！</p>
-<blockquote>
-<p>不会自我管理的人不管在哪里看起来都是Loser。</p>
-</blockquote>
-<ul>
-<li>跑步、健身、有氧</li>
-<li>早睡 (before 11:00)</li>
-<li>吃得健康 (no snack)</li>
-</ul>
-<h2 id="关于饮食"><a href="#关于饮食" class="headerlink" title="关于饮食"></a>关于饮食</h2><p>上面也说了，在饮食这方面我得有很大的节制才行。我希望学习厨艺，通过下厨来体验一下生活中的快乐。我在北京的一个人住自己做饭的时候，体会到了那种欢乐，但我还是懒，叫了很多次外卖。fuck，2017目标之一是不再叫外卖。饿了么就不能再重新下载了我擦！</p>
-<h2 id="关于旅游"><a href="#关于旅游" class="headerlink" title="关于旅游"></a>关于旅游</h2><p>我发现我并不是一个很热爱旅游的人，可能因为我也没去过几个地方。我希望发现这个世界更多的美好，所以我希望我在2017年可以出一次国，体会一下别人照片中的万水千山。</p>
-<h2 id="关于工作"><a href="#关于工作" class="headerlink" title="关于工作"></a>关于工作</h2><p>当我决定了我要当前端工程师的时候我其实就知道我以后并不能只做前端。前端虽然很有趣(for me)，但是水有点浅(对于大部分公司只是需要一个会做页面的)。</p>
-<p>我并不甘心做一个只会写页面的工程师，虽然我认为我在视图层这方面学的比较好。</p>
-<p>我需要学后端，我需要学<code>Native</code>。</p>
-<p>目标是在今年掌握<code>Nodejs</code>、<code>React</code>和<code>React Native</code>。</p>
-<p>我希望到一个更大的平台里茁壮成长。</p>
-<p>我希望回家。</p>
-<h2 id="关于社交"><a href="#关于社交" class="headerlink" title="关于社交"></a>关于社交</h2><p>我决定暂时把朋友圈关闭。</p>
-<p>我发现我对大家的生活太关注了，这本身就是一个寂寞的行为。</p>
-<p>而且我喜欢将自己的心声通过朋友圈表达出来，让特定的人看到，这本身就是一个病态的行为。</p>
-<blockquote>
-<p>把注意力从朋友圈、微博和知乎上移开，生活质量提高得不止一丢丢。</p>
-</blockquote>
-<p>我想把我的生活告诉你，我想聆听你的生活。但我希望能够面对面。</p>
-<h2 id="关于Mingen"><a href="#关于Mingen" class="headerlink" title="关于Mingen"></a>关于Mingen</h2><p>在长情与专一与怂的人物列传里面我绝对能排前五。</p>
-<p>我不知道喜欢的点在哪里，但有关Mingen的所有我都喜欢。</p>
-<p>从初中到现在，我的天。</p>
-<p>这份深情，我保证，日月可昭。</p>
-<p>但是，也只有日月可昭了。</p>
-<p>我会放弃的。</p>
-<p>哎。</p>
-<h2 id="关于家庭"><a href="#关于家庭" class="headerlink" title="关于家庭"></a>关于家庭</h2><p>纷杂的背景注定了我的人生有一半几乎不是自己的，而另一半也是险象迭生的。</p>
-<p>但依然，我爱我的妈妈，我爱我的姐姐，我爱我的爸爸，我爱我的妹妹。我希望能够保护他们一辈子，我希望能给予他们一切。</p>
-<p>没有什么比家人重要。</p>
-<h2 id="到了最后"><a href="#到了最后" class="headerlink" title="到了最后"></a>到了最后</h2><p>很久没有写过字了，发现水平差了不止一丢丢。文不达意，词句不通。</p>
-<p>2017一定会更好的，做一个正能量爆棚的Sid！噢耶～</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;关于这个博客&quot;&gt;&lt;a href=&quot;#关于这个博客&quot; class=&quot;headerlink&quot; title=&quot;关于这个博客&quot;&gt;&lt;/a&gt;关于这个博客&lt;/h2&gt;&lt;p&gt;其实一早就应该开一个博客来发牢骚。&lt;/p&gt;
-&lt;p&gt;这个博客会记录关于我心里的一切，我会把我的心情、我的见闻、
-    
-    </summary>
-    
-    
-      <category term="philosophy" scheme="http://sidkwok.cn/tags/philosophy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2017 清单</title>
-    <link href="http://sidkwok.cn/2017/01/19/first-post/"/>
-    <id>http://sidkwok.cn/2017/01/19/first-post/</id>
-    <published>2017-01-19T13:09:31.000Z</published>
-    <updated>2017-04-04T04:31:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>[ ] 完成一个简单的mvvm框架<br>[ ] <strong>10KG</strong><br>[ ] <strong>Mingen</strong><br>[ ] 学一种乐器 (包括基础乐理)<br>[ ] 出国旅游一次<br>[ ] 掌握<code>Nodejs</code><br>[ ] 入门<code>php</code><br>[ ] <strong>写一个自己的博客 (hexo or ?)</strong><br>[ ] 深入学习<code>React</code>和<code>React Native</code><br>[ ] 发布一个应用<br>[ ] 每个月看一本书(技术无关)<br>[ ] 当一个实事求是的人<br>[ ] 自我管理<br>[ ] 把好玩有趣的东西分段享受</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;[ ] 完成一个简单的mvvm框架&lt;br&gt;[ ] &lt;strong&gt;10KG&lt;/strong&gt;&lt;br&gt;[ ] &lt;strong&gt;Mingen&lt;/strong&gt;&lt;br&gt;[ ] 学一种乐器 (包括基础乐理)&lt;br&gt;[ ] 出国旅游一次&lt;br&gt;[ ] 掌握&lt;code&gt;Nodejs&lt;/
-    
-    </summary>
-    
-    
-      <category term="goal" scheme="http://sidkwok.cn/tags/goal/"/>
     
   </entry>
   
