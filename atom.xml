@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://sidkwok.cn/"/>
-  <updated>2017-04-10T08:54:53.000Z</updated>
+  <updated>2017-04-10T08:57:42.000Z</updated>
   <id>http://sidkwok.cn/</id>
   
   <author>
@@ -14,6 +14,333 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>工具集</title>
+    <link href="http://sidkwok.cn/2017/04/05/tool-collections/"/>
+    <id>http://sidkwok.cn/2017/04/05/tool-collections/</id>
+    <published>2017-04-04T17:15:52.000Z</published>
+    <updated>2017-04-10T08:57:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li><strong><a href="http://emoji.muan.co/" target="_blank" rel="external">Emoji Searcher</a></strong>，emoji搜索器，主要用于git的commit</li>
+<li><strong><a href="https://favicon.io/index.html" target="_blank" rel="external">favicon.io</a></strong>，favicon制作器</li>
+<li><strong><a href="http://jaqen.me/mdpub/" target="_blank" rel="external">Android Material 材料风格图标LOGO生成器</a></strong></li>
+<li><strong><a href="http://fontfling.com/" target="_blank" rel="external">fontfling</a></strong>，寻找相应的字体</li>
+<li><strong><a href="http://patorjk.com/software/taag/#p=display&amp;f=Big&amp;t=test" target="_blank" rel="external">生成ASCII字体</a></strong></li>
+<li><strong><a href="https://www.emailthis.me/open-source/extension-boilerplate" target="_blank" rel="external">extension-boilerplate</a></strong>，浏览器插件脚手架</li>
+<li><strong><a href="https://egoistian.com/slogan/" target="_blank" rel="external">slogan</a></strong>，制作项目icon</li>
+<li><strong><a href="http://shields.io/" target="_blank" rel="external">shields</a></strong>，制作github的readme badge</li>
+<li><strong><a href="https://npms.io/" target="_blank" rel="external">npms.io</a></strong>，搜索npm模块，并可以知道其质量好坏</li>
+<li><strong><a href="http://semver.org/lang/zh-CN/" target="_blank" rel="external">语义化版本 2.0.0</a></strong></li>
+<li><strong><a href="http://gifmiao.com/index" target="_blank" rel="external">聊天表情动图</a></strong></li>
+<li><strong><a href="https://github.com/steambap/png-to-ico" target="_blank" rel="external">png-to-ico</a></strong>，png转换ico</li>
+<li><strong><a href="https://webpackbin.herokuapp.com/4kjctc5vb" target="_blank" rel="external">webpackbin</a></strong>，webpack的在线编辑</li>
+<li><strong><a href="https://projects.lukehaas.me/regexhub/" target="_blank" rel="external">regexhub</a></strong>，正则表达式的在线编辑</li>
+<li><strong><a href="https://www.staticfile.org/" target="_blank" rel="external">staticfile</a></strong>，直接引用相关script和link</li>
+<li><strong><a href="https://gitmoji.carloscuesta.me/" target="_blank" rel="external">gitmoji</a></strong>，用emoji来描述commit信息</li>
+<li><strong><a href=""></a></strong>，</li>
+<li><strong><a href=""></a></strong>，</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://emoji.muan.co/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Emoji Searcher&lt;/a&gt;&lt;/strong&gt;，emoji搜索器，主要用于git的commit&lt;/li&gt;
+&lt;li
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS-技巧集</title>
+    <link href="http://sidkwok.cn/2017/04/04/css-tips/"/>
+    <id>http://sidkwok.cn/2017/04/04/css-tips/</id>
+    <published>2017-04-04T09:00:32.000Z</published>
+    <updated>2017-04-10T08:57:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="优化显示文本"><a href="#优化显示文本" class="headerlink" title="优化显示文本"></a>优化显示文本</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">html</span> &#123;</div><div class="line">    <span class="attribute">-moz-osx-font-smoothing</span>: grayscale;</div><div class="line">    <span class="attribute">-webkit-font-smoothing</span>: antialiased;</div><div class="line">    <span class="attribute">text-rendering</span>: optimizeLegibility;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p><em>效果(上是优化前，下是优化后)：</em></p>
+<p><img src="/images/css-tips/css-tips-1.png" alt="1"></p>
+<h2 id="表格单元格等宽"><a href="#表格单元格等宽" class="headerlink" title="表格单元格等宽"></a>表格单元格等宽</h2><p>这个可以使保持单元格等宽</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.calendar</span> &#123;</div><div class="line">    <span class="attribute">table-layout</span>: fixed;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="使用属性选择器用于空链接"><a href="#使用属性选择器用于空链接" class="headerlink" title="使用属性选择器用于空链接"></a>使用属性选择器用于空链接</h3><p>当a标签文本值为空时，使用<code>href</code>里的链接作为文本值</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">a</span><span class="selector-attr">[href^="http"]</span><span class="selector-pseudo">:empty</span><span class="selector-pseudo">::before</span> &#123;</div><div class="line">    <span class="attribute">content</span>: <span class="built_in">attr</span>(href);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="禁用鼠标事件"><a href="#禁用鼠标事件" class="headerlink" title="禁用鼠标事件"></a>禁用鼠标事件</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.disabled</span> &#123;</div><div class="line">    <span class="attribute">pointer-events</span>: none;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="模糊文本"><a href="#模糊文本" class="headerlink" title="模糊文本"></a>模糊文本</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.blur</span> &#123;</div><div class="line">   <span class="attribute">color</span>: transparent;</div><div class="line">   <span class="attribute">text-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">5px</span> <span class="built_in">rgba</span>(0,0,0,0.5);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="垂直对齐"><a href="#垂直对齐" class="headerlink" title="垂直对齐"></a>垂直对齐</h3><p>这种方法用了<code>transform</code>，ie9以上才支持</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.verticalcenter</span>&#123;</div><div class="line">    <span class="attribute">position</span>: relative;</div><div class="line">    <span class="attribute">top</span>: <span class="number">50%</span>;</div><div class="line">    <span class="attribute">-webkit-transform</span>: <span class="built_in">translateY</span>(-50%);</div><div class="line">    <span class="attribute">-o-transform</span>: <span class="built_in">translateY</span>(-50%);</div><div class="line">    <span class="attribute">transform</span>: <span class="built_in">translateY</span>(-50%);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="伸展一个元素到窗口高度"><a href="#伸展一个元素到窗口高度" class="headerlink" title="伸展一个元素到窗口高度"></a>伸展一个元素到窗口高度</h3><p>要设置html和body的高度为100%之后，元素的高度100%才会沾满屏幕</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">html</span>,</div><div class="line"><span class="selector-tag">body</span> &#123;</div><div class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">div</span> &#123;</div><div class="line">    <span class="attribute">height</span>: <span class="number">100%</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="表格列宽自适用"><a href="#表格列宽自适用" class="headerlink" title="表格列宽自适用"></a>表格列宽自适用</h3><p>表格会适当地换行</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">td</span> &#123;</div><div class="line">    <span class="attribute">white-space</span>: nowrap;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="媒体查询"><a href="#媒体查询" class="headerlink" title="媒体查询"></a>媒体查询</h3><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* Smartphones (portrait and landscape) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen</div><div class="line">and (min-device-width : <span class="number">320px</span>) and (max-device-width : <span class="number">480px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* Smartphones (landscape) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-width : <span class="number">321px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* Smartphones (portrait) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (max-width : <span class="number">320px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* iPads (portrait and landscape) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-device-width : <span class="number">768px</span>) and (max-device-width : <span class="number">1024px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* iPads (landscape) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-device-width : <span class="number">768px</span>) and (max-device-width : <span class="number">1024px</span>) and (orientation : landscape) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* iPads (portrait) ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-device-width : <span class="number">768px</span>) and (max-device-width : <span class="number">1024px</span>) and (orientation : portrait) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* Desktops and laptops ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-width : <span class="number">1224px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* Large screens ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (min-width : <span class="number">1824px</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">/* iPhone 4 ----------- */</span></div><div class="line">@<span class="keyword">media</span> only screen and (-webkit-min-device-pixel-ratio:<span class="number">1.5</span>), only screen and (min-device-pixel-ratio:<span class="number">1.5</span>) &#123;</div><div class="line">  <span class="comment">/* Styles */</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="自定义文本选择"><a href="#自定义文本选择" class="headerlink" title="自定义文本选择"></a>自定义文本选择</h3><p>选中文本的时候生成不同的颜色</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-pseudo">::selection</span> &#123; <span class="attribute">background</span>: <span class="number">#e2eae2</span>; &#125;</div><div class="line"><span class="selector-pseudo">::-moz-selection</span> &#123; <span class="attribute">background</span>: <span class="number">#e2eae2</span>; &#125;</div><div class="line"><span class="selector-pseudo">::-webkit-selection</span> &#123; <span class="attribute">background</span>: <span class="number">#e2eae2</span>; &#125;</div></pre></td></tr></table></figure>
+<p><img src="/images/css-tips/css-tips-2.png" alt="2"></p>
+<h4 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h4><ul>
+<li><a href="http://caibaojian.com/useful-css-tips.html" target="_blank" rel="external">20个很有用的CSS技巧</a></li>
+<li><a href="https://segmentfault.com/a/1190000002773955" target="_blank" rel="external">60个有用CSS代码片段</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;优化显示文本&quot;&gt;&lt;a href=&quot;#优化显示文本&quot; class=&quot;headerlink&quot; title=&quot;优化显示文本&quot;&gt;&lt;/a&gt;优化显示文本&lt;/h2&gt;&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutte
+    
+    </summary>
+    
+    
+      <category term="css" scheme="http://sidkwok.cn/tags/css/"/>
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>webpack-集合</title>
+    <link href="http://sidkwok.cn/2017/04/04/webpack-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/webpack-collections/</id>
+    <published>2017-04-04T05:51:33.000Z</published>
+    <updated>2017-04-10T08:57:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="https://doc.webpack-china.org/" target="_blank" rel="external">webpack2 中文文档</a></strong></li>
+</ul>
+<h2 id="loaders"><a href="#loaders" class="headerlink" title="loaders"></a>loaders</h2><ul>
+<li><strong><a href="https://github.com/babel/babel-loader" target="_blank" rel="external">babel-loader</a></strong>，转换es6或者jsx用的</li>
+<li><strong><a href="https://github.com/webpack-contrib/css-loader" target="_blank" rel="external">css-loader</a></strong>，识别css文件的</li>
+</ul>
+<h2 id="plugins"><a href="#plugins" class="headerlink" title="plugins"></a>plugins</h2><ul>
+<li><strong><a href="https://github.com/jantimon/html-webpack-plugin" target="_blank" rel="external">html-webpack-plugin</a></strong>，解析html文件</li>
+<li><strong><a href="https://github.com/webpack-contrib/extract-text-webpack-plugin" target="_blank" rel="external">extract-text-webpack-plugin</a></strong>，将样式文件输出到单独的文件里面</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;文档&quot;&gt;&lt;a href=&quot;#文档&quot; class=&quot;headerlink&quot; title=&quot;文档&quot;&gt;&lt;/a&gt;文档&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://doc.webpack-china.org/&quot; target=&quot;_blank&quot;
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="javascript" scheme="http://sidkwok.cn/tags/javascript/"/>
+    
+      <category term="webpack" scheme="http://sidkwok.cn/tags/webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>React-集合</title>
+    <link href="http://sidkwok.cn/2017/04/04/react-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/react-collections/</id>
+    <published>2017-04-04T05:23:41.000Z</published>
+    <updated>2017-04-10T08:57:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="http://cn.redux.js.org/" target="_blank" rel="external">Redux 中文文档</a></strong></li>
+<li><strong><a href="http://react-guide.github.io/react-router-cn/" target="_blank" rel="external">react-router v3 中文文档</a></strong></li>
+<li><strong><a href="https://reacttraining.cn/web/guides/quick-start" target="_blank" rel="external">react-router v4 中文文档</a></strong></li>
+<li><strong><a href="http://reactnative.cn/" target="_blank" rel="external">react-native 中文文档</a></strong></li>
+</ul>
+<h2 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h2><ul>
+<li><strong><a href="https://github.com/styled-components/styled-components" target="_blank" rel="external">styled-components</a></strong>，样式组件</li>
+<li><strong><a href="https://github.com/unsplash/react-trend" target="_blank" rel="external">react-trend</a></strong></li>
+<li><strong><a href="https://motion.ant.design/" target="_blank" rel="external">Ant Motion</a></strong>，react动画库</li>
+<li><strong><a href="https://github.com/zeit/styled-jsx" target="_blank" rel="external">styled-jsx</a></strong>，用jsx写样式，略像vue的scoped css</li>
+<li><strong><a href="https://elrumordelaluz.github.io/reactour/" target="_blank" rel="external">reactour</a></strong>，提示步骤组件</li>
+<li><strong><a href="http://jedwatson.github.io/react-select/" target="_blank" rel="external">react-select</a></strong>，支持单选多选搜索的表单</li>
+<li><strong><a href="http://react-springy-parallax.surge.sh/" target="_blank" rel="external">react-springy-parallax</a></strong>，视差动画</li>
+<li><strong><a href="https://react-overdrive.now.sh/" target="_blank" rel="external">react-overdrive</a></strong>，element之间的转换，对于router的切换动画很有用</li>
+<li><strong><a href="https://nadbm.github.io/react-datasheet/" target="_blank" rel="external">React datasheet</a></strong>，像excel那样子去处理表格</li>
+<li><strong><a href="https://bvaughn.github.io/redux-search/" target="_blank" rel="external">redux search</a></strong>，与redux绑定的搜索组件</li>
+<li><strong><a href="https://polished.js.org/" target="_blank" rel="external">polished</a></strong>，css in js，一堆非常有用的样式函数，例如clearFix那些</li>
+<li><strong><a href=""></a></strong>，</li>
+<li><strong><a href=""></a></strong>，</li>
+</ul>
+<h2 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h2><ul>
+<li><strong><a href="https://ant.design/docs/react/introduce-cn" target="_blank" rel="external">Ant Design</a></strong></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;文档&quot;&gt;&lt;a href=&quot;#文档&quot; class=&quot;headerlink&quot; title=&quot;文档&quot;&gt;&lt;/a&gt;文档&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;http://cn.redux.js.org/&quot; target=&quot;_blank&quot; rel=&quot;e
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="javascript" scheme="http://sidkwok.cn/tags/javascript/"/>
+    
+      <category term="react" scheme="http://sidkwok.cn/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue-集合</title>
+    <link href="http://sidkwok.cn/2017/04/04/vue-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/vue-collections/</id>
+    <published>2017-04-04T05:23:29.000Z</published>
+    <updated>2017-04-10T08:57:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="https://cn.vuejs.org/" target="_blank" rel="external">Vue.js 中文文档</a></strong></li>
+<li><strong><a href="https://pablohpsilva.github.io/vuejs-component-style-guide/#/chinese" target="_blank" rel="external">vue编码规范</a></strong></li>
+<li><strong><a href="http://router.vuejs.org/zh-cn/index.html" target="_blank" rel="external">vue-router2 中文文档</a></strong></li>
+<li><strong><a href="http://vuex.vuejs.org/zh-cn/intro.html" target="_blank" rel="external">Vuex2 中文文档</a></strong></li>
+<li><strong><a href="http://vuejs-templates.github.io/webpack/index.html" target="_blank" rel="external">vue-cli 文档</a></strong></li>
+<li><strong><a href="https://cn.nuxtjs.org/" target="_blank" rel="external">Nuxt.js 中文文档</a></strong></li>
+</ul>
+<h2 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h2><ul>
+<li><strong><a href="http://hilongjw.github.io/vue-progressbar/" target="_blank" rel="external">vue-progressbar</a></strong>，上方加载条(绿色)</li>
+<li><strong><a href="https://dalphyx.github.io/vue-top-progress/" target="_blank" rel="external">vue-top-progress</a></strong>，上方加载条(蓝色)</li>
+<li><strong><a href="http://greyby.github.io/vue-spinner/" target="_blank" rel="external">vue-spinner</a></strong>，加载动画</li>
+<li><strong><a href="http://miaolz123.github.io/vue-markdown/" target="_blank" rel="external">vue-markdown</a></strong>，转化markdown为html</li>
+<li><strong><a href="https://justineo.github.io/vue-awesome/demo/" target="_blank" rel="external">vue-awesome</a></strong>，font awsome的vue版</li>
+<li><strong><a href="http://monterail.github.io/vue-multiselect/" target="_blank" rel="external">vue-multiselect</a></strong>，支持单选多选和搜索的表单</li>
+<li><strong><a href="http://hilongjw.github.io/vue-lazyload/" target="_blank" rel="external">vue-lazyload</a></strong>，图像的懒加载</li>
+<li><strong><a href="https://github.com/ktquez/vue-head" target="_blank" rel="external">vue-head</a></strong>，定义head标签的内容</li>
+<li><strong><a href="http://xiaokaike.github.io/vue-clipboard/" target="_blank" rel="external">vue-clipboard</a></strong>，vue与clipboard的绑定</li>
+<li><strong><a href="http://astray-git.github.io/vue-dragula/" target="_blank" rel="external">vue-dragula</a></strong>，vue和dragula的结合</li>
+<li><strong><a href="https://hejx.herokuapp.com/vue-dndl" target="_blank" rel="external">vue-dndl</a></strong>，列表之间的拖拽</li>
+<li><strong><a href="https://monterail.github.io/vuelidate/" target="_blank" rel="external">vuelidate</a></strong>，比较轻量的vue表单验证</li>
+<li><strong><a href="https://elemefe.github.io/vue-amap/#/" target="_blank" rel="external">vue-amap</a></strong>，vue的高德地图</li>
+<li><strong><a href="https://surmon-china.github.io/vue-video-player/" target="_blank" rel="external">vue-video-player</a></strong>，视频播放</li>
+<li><strong><a href="https://github.com/egoist/vue-timeago" target="_blank" rel="external">vue-timeago</a></strong></li>
+<li><strong><a href="https://github.com/QingWei-Li/vue-trend" target="_blank" rel="external">vue-trend</a></strong></li>
+<li><strong><a href="https://rigor789.github.io/vue-scrollto/#/" target="_blank" rel="external">vue-scrollto</a></strong>，滚动到</li>
+<li><strong><a href="https://github.com/pespantelis/vue-typeahead" target="_blank" rel="external">vue-typeahead</a></strong></li>
+</ul>
+<h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><ul>
+<li><strong><a href="https://qingwei-li.github.io/vuep/" target="_blank" rel="external">vuep</a></strong>，在线编辑vue组件</li>
+<li><strong><a href="https://simulatedgreg.gitbooks.io/electron-vue/content/en/" target="_blank" rel="external">electron-vue</a></strong>，electron与vue的脚手架</li>
+<li><strong><a href="https://github.com/posva/vue-plugin-template" target="_blank" rel="external">vue-plugin-template</a></strong>，vue插件脚手架</li>
+<li><strong><a href=""></a></strong>，</li>
+<li><strong><a href=""></a></strong>，</li>
+<li><strong><a href=""></a></strong>，</li>
+</ul>
+<h2 id="UI"><a href="#UI" class="headerlink" title="UI"></a>UI</h2><ul>
+<li><strong><a href="https://www.iviewui.com/" target="_blank" rel="external">iview</a></strong>，ant design的vue实现</li>
+<li><strong><a href="http://element.eleme.io/#/zh-CN" target="_blank" rel="external">Element</a></strong>，饿了么ui</li>
+<li><strong><a href="https://vuetifyjs.com/" target="_blank" rel="external">vuetifyjs</a></strong>，Material Design</li>
+<li><strong><a href="http://www.muse-ui.org/" target="_blank" rel="external">muse-ui</a></strong>，Material Design 中文</li>
+<li><strong><a href="https://vux.li/demos/v2/?x-page=v2-doc-home#/" target="_blank" rel="external">vux</a></strong>，移动端wechat样式</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;文档&quot;&gt;&lt;a href=&quot;#文档&quot; class=&quot;headerlink&quot; title=&quot;文档&quot;&gt;&lt;/a&gt;文档&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://cn.vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;ext
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="javascript" scheme="http://sidkwok.cn/tags/javascript/"/>
+    
+      <category term="vue" scheme="http://sidkwok.cn/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript-集合</title>
+    <link href="http://sidkwok.cn/2017/04/04/js-collections/"/>
+    <id>http://sidkwok.cn/2017/04/04/js-collections/</id>
+    <published>2017-04-04T04:27:31.000Z</published>
+    <updated>2017-04-10T08:57:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li><strong><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" target="_blank" rel="external">JavaScript 参考文档</a></strong></li>
+</ul>
+<h2 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h2><ul>
+<li><strong><a href="http://www.gulpjs.com.cn/" target="_blank" rel="external">Gulp 中文文档</a></strong></li>
+<li><strong><a href="https://zhenyong.github.io/flowtype/" target="_blank" rel="external">Flow 中文文档</a></strong>,</li>
+<li><strong><a href="https://www.tslang.cn/" target="_blank" rel="external">TypeScript 中文文档</a></strong></li>
+<li><strong><a href="https://lodash.com/docs/4.17.4" target="_blank" rel="external">lodash 官方文档</a></strong></li>
+<li><strong><a href="http://lodashjs.com/docs/" target="_blank" rel="external">lodash 中文文档</a></strong>，v3.10.1</li>
+<li><strong><a href="http://www.css88.com/jqapi-1.9/" target="_blank" rel="external">jQuery 文档</a></strong></li>
+</ul>
+<h2 id="库"><a href="#库" class="headerlink" title="库"></a>库</h2><h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><ul>
+<li><strong><a href="http://bouncejs.com/" target="_blank" rel="external">Bounce.js</a></strong>，Bounce js动画，很Q弹</li>
+<li><strong><a href="http://dynamicsjs.com/" target="_blank" rel="external">Dynamics.js</a></strong>，带有物理效果的动画</li>
+<li><strong><a href="https://christinecha.github.io/choreographer-js/" target="_blank" rel="external">Choreographer.js</a></strong>，动画库，能够处理复杂的css</li>
+<li><strong><a href="http://anime-js.com/" target="_blank" rel="external">anime.js</a></strong>，动画库</li>
+<li><strong><a href="http://prinzhorn.github.io/skrollr/" target="_blank" rel="external">skrollr</a></strong>，滚动动画</li>
+<li><strong><a href="https://sarcadass.github.io/granim.js/" target="_blank" rel="external">Granim.js</a></strong>，渐变动画，超帅</li>
+<li><strong><a href="http://voxelcss.com/" target="_blank" rel="external">voxelcss</a></strong>，不知道怎么形容，3d就对了</li>
+<li><strong><a href="http://www.rich-harris.co.uk/ramjet/" target="_blank" rel="external">ramjet</a></strong>，dom转换动画</li>
+<li><strong><a href="http://kushagragour.in/lab/superplaceholderjs/" target="_blank" rel="external">superplaceholder.js</a></strong>，placeholder动画</li>
+<li><strong><a href="https://micku7zu.github.io/vanilla-tilt.js/index.html" target="_blank" rel="external">vanilla-tilt.js</a></strong>，3d视差移动</li>
+<li><strong><a href="http://snapsvg.io/" target="_blank" rel="external">Snap.svg</a></strong>，svg动画库</li>
+</ul>
+<h3 id="ui相关"><a href="#ui相关" class="headerlink" title="ui相关"></a>ui相关</h3><ul>
+<li><strong><a href="https://slideout.js.org/" target="_blank" rel="external">Slideout.js</a></strong>，滑动菜单的效果，用于手机</li>
+<li><strong><a href="http://desmonding.me/zooming/" target="_blank" rel="external">Zooming</a></strong>，图像放大效果</li>
+<li><strong><a href="http://ricostacruz.com/nprogress/" target="_blank" rel="external">NProgress.js</a></strong>，头部加载条</li>
+<li><strong><a href="https://github.com/sachinchoolur/lightgallery.js" target="_blank" rel="external">lightgallery.js</a></strong>，图片幻灯片</li>
+<li><strong><a href="http://idangero.us/swiper/" target="_blank" rel="external">Swiper</a></strong>，滑动幻灯片</li>
+</ul>
+<h3 id="滚动相关"><a href="#滚动相关" class="headerlink" title="滚动相关"></a>滚动相关</h3><ul>
+<li><strong><a href="https://github.com/jlmakes/scrollreveal" target="_blank" rel="external">Scrollreveal.js</a></strong>，滚动效果</li>
+<li><strong><a href="https://hsnaydd.github.io/moveTo/demo/" target="_blank" rel="external">moveTo.js</a></strong>，移动到页面相应位置(回到顶部)</li>
+<li><strong><a href="https://terwanerik.github.io/ScrollTrigger/" target="_blank" rel="external">ScrollTrigger</a></strong>，滚动触发</li>
+</ul>
+<h3 id="弹出"><a href="#弹出" class="headerlink" title="弹出"></a>弹出</h3><ul>
+<li><strong><a href="https://popper.js.org/" target="_blank" rel="external">Popper.js</a></strong>，轻量的弹出框，不同于modal的弹出</li>
+<li><strong><a href="http://t4t5.github.io/sweetalert/" target="_blank" rel="external">sweetalert,js</a></strong>，弹出提示</li>
+<li><strong><a href="http://carlosroso.com/notyf/" target="_blank" rel="external">Notyf</a></strong>，轻量提示框</li>
+<li><strong><a href="https://atomiks.github.io/tippyjs/" target="_blank" rel="external">Tippy.js</a></strong>，hover提示，功能比较多</li>
+</ul>
+<h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul>
+<li><strong><a href="http://www.dropzonejs.com/" target="_blank" rel="external">Dropzone.js</a></strong>，拖拽上传</li>
+<li><strong><a href="http://faisalman.github.io/ua-parser-js/" target="_blank" rel="external">UAParser.js</a></strong>，分析浏览器UA</li>
+<li><strong><a href="https://github.com/ecomfe/aop" target="_blank" rel="external">uaop</a></strong>，ecomfe写的aop库</li>
+<li><strong><a href="https://github.com/cujojs/meld" target="_blank" rel="external">meld.js</a></strong>，aop库，比较好用</li>
+<li><strong><a href="https://github.com/ebidel/appmetrics.js" target="_blank" rel="external">appmetrics.js</a></strong>，分析页面信息然后上传到google analysis</li>
+<li><strong><a href="http://listjs.com/" target="_blank" rel="external">List.js</a></strong>，处理列表的库，支持搜索排序等功能</li>
+<li><strong><a href="http://nosir.github.io/cleave.js/" target="_blank" rel="external">Cleave.js</a></strong>，表单输入的时候自动格式化</li>
+<li><strong><a href="https://github.com/kciter/qart.js" target="_blank" rel="external">qart.js</a></strong>，二维码，支持自定义</li>
+<li><strong><a href="http://anguscroll.com/just/" target="_blank" rel="external">Just</a></strong>，工具函数库，是一堆独立的库，功能类似lodash</li>
+<li><strong><a href="https://clipboardjs.com/" target="_blank" rel="external">clipboard.js</a></strong>，最好用的复制粘贴，支持ie9以上</li>
+<li><strong><a href="http://hammerjs.github.io/" target="_blank" rel="external">hammer.js</a></strong>，移动端触摸库</li>
+<li><strong><a href="https://github.com/BetterJS/badjs-report" target="_blank" rel="external">badjs</a></strong>，前端性能监测</li>
+<li><strong><a href="https://github.com/MaxArt2501/re-build" target="_blank" rel="external">re-build</a></strong>，用自然语言写正则表达式</li>
+<li><strong><a href="https://chmln.github.io/flatpickr/" target="_blank" rel="external">flatpickr</a></strong>，最好用的日历选择器</li>
+</ul>
+<h3 id="for-fun"><a href="#for-fun" class="headerlink" title="for fun"></a>for fun</h3><ul>
+<li><strong><a href="http://impress.github.io/impress.js" target="_blank" rel="external">impress.js</a></strong>，类似ppt，设计感爆炸的ppt</li>
+<li><strong><a href="https://okazari.github.io/Rythm.js/" target="_blank" rel="external">Rythm.js</a></strong>，声音控制节奏移动dom</li>
+<li><strong><a href="https://jrainlau.github.io/sphinx/" target="_blank" rel="external">sphinx</a></strong>，将字符串转化为base64编码并生成图像</li>
+<li><strong><a href="https://camwiegert.github.io/baffle/" target="_blank" rel="external">baffle.js</a></strong>，很炫的文字模糊显示效果</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;参考&quot;&gt;&lt;a href=&quot;#参考&quot; class=&quot;headerlink&quot; title=&quot;参考&quot;&gt;&lt;/a&gt;参考&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://developer.mozilla.org/zh-CN/docs/Web/Ja
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="javascript" scheme="http://sidkwok.cn/tags/javascript/"/>
+    
+  </entry>
   
   <entry>
     <title>CSS-集合</title>
@@ -90,6 +417,33 @@
       <category term="css" scheme="http://sidkwok.cn/tags/css/"/>
     
       <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redux</title>
+    <link href="http://sidkwok.cn/2017/03/08/redux-tips/"/>
+    <id>http://sidkwok.cn/2017/03/08/redux-tips/</id>
+    <published>2017-03-08T05:51:27.000Z</published>
+    <updated>2017-04-10T08:57:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="redux-thunk"><a href="#redux-thunk" class="headerlink" title="redux-thunk"></a>redux-thunk</h2><p>主要用来处理异步<code>actions</code>，有点像<strong>vuex</strong>中的<code>actions</code>。<strong>vuex</strong>中的<code>actions</code>可以在里面使用一些异步方法，通过<code>commit</code>来达到改变<code>store</code>的目的。而<strong>redux-thunk</strong>则差不多，在<code>thunk</code>函数中异步<code>dispatch</code>。不同的是，<strong>vuex</strong> <code>commit</code>的东西是同步的<code>mutations</code>(在<strong>Redux</strong>中叫<code>actions.type</code>)，而<strong>redux-thunk</strong> <code>dispatch</code>的是<code>actions</code>.</p>
+<h3 id="🌰"><a href="#🌰" class="headerlink" title="🌰"></a>🌰</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// configureStore.js</span></div><div class="line"><span class="keyword">import</span> &#123; createStore, applyMiddleware &#125; <span class="keyword">from</span> <span class="string">'redux'</span>;</div><div class="line"><span class="keyword">import</span> thunk <span class="keyword">from</span> <span class="string">'redux-thunk'</span>;</div><div class="line"><span class="keyword">import</span> rootReducer <span class="keyword">from</span> <span class="string">'./reducers'</span>;</div><div class="line"></div><div class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">configureStore</span>(<span class="params">initialState</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> createStore(</div><div class="line">        rootReducer,</div><div class="line">        initialState,</div><div class="line">        applyMiddleware(thunk)</div><div class="line">    );</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// actions.js</span></div><div class="line"><span class="comment">// 制造一个1秒的异步请求</span></div><div class="line"><span class="keyword">const</span> timeout = <span class="function"><span class="params">()</span> =&gt;</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function"><span class="params">resolve</span> =&gt;</span> setTimeout(resolve, <span class="number">1000</span>));</div><div class="line"><span class="comment">// 同步action</span></div><div class="line"><span class="keyword">export</span> <span class="keyword">const</span> increment = <span class="function"><span class="params">n</span> =&gt;</span> (&#123;<span class="attr">type</span>: types.INCREMENT, n&#125;);</div><div class="line"><span class="comment">// 异步 thunk action</span></div><div class="line"><span class="keyword">export</span> <span class="keyword">const</span> asyncIncrement = <span class="function"><span class="params">n</span> =&gt;</span> &#123;</div><div class="line">    <span class="keyword">return</span> <span class="function"><span class="params">dispatch</span> =&gt;</span> &#123;</div><div class="line">        <span class="keyword">return</span> timeout().then(<span class="function"><span class="params">()</span> =&gt;</span> &#123;</div><div class="line">            <span class="comment">// 请求成功之后就执行同步的action</span></div><div class="line">            dispatch(increment(n))</div><div class="line">        &#125;);</div><div class="line">    &#125;;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h2 id="compose"><a href="#compose" class="headerlink" title="compose"></a>compose</h2><p>很多时候会用<code>compose</code>来将多个<code>middleware</code>合成一个<code>enhancer</code>传入<code>createStore</code>，很典型的一个例子是结合着<code>redux-devtools</code>来搞。</p>
+<h3 id="🌰-1"><a href="#🌰-1" class="headerlink" title="🌰"></a>🌰</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> &#123; createStore, compose &#125; <span class="keyword">from</span> <span class="string">'redux'</span>;</div><div class="line"><span class="keyword">import</span> thunk <span class="keyword">from</span> <span class="string">'redux-thunk'</span>;</div><div class="line"></div><div class="line"><span class="keyword">import</span> rootReducer <span class="keyword">from</span> <span class="string">'./reducers'</span>;</div><div class="line"></div><div class="line"><span class="keyword">const</span> enhancer = compose(</div><div class="line">    <span class="comment">// 浏览器redux插件</span></div><div class="line">    <span class="built_in">window</span>.__REDUX_DEVTOOLS_EXTENSION__ &amp;&amp; <span class="built_in">window</span>.__REDUX_DEVTOOLS_EXTENSION__(),</div><div class="line">    <span class="comment">// 自己的插件</span></div><div class="line">    thunk</div><div class="line">);</div><div class="line"></div><div class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="function"><span class="keyword">function</span> <span class="title">configureStore</span> (<span class="params">initialState</span>) </span>&#123;</div><div class="line">    <span class="keyword">return</span> createStore(</div><div class="line">        rootReducer,</div><div class="line">        initialState,</div><div class="line">        enhancer</div><div class="line">    );</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;redux-thunk&quot;&gt;&lt;a href=&quot;#redux-thunk&quot; class=&quot;headerlink&quot; title=&quot;redux-thunk&quot;&gt;&lt;/a&gt;redux-thunk&lt;/h2&gt;&lt;p&gt;主要用来处理异步&lt;code&gt;actions&lt;/code&gt;，有点像&lt;s
+    
+    </summary>
+    
+    
+      <category term="tech" scheme="http://sidkwok.cn/tags/tech/"/>
+    
+      <category term="react" scheme="http://sidkwok.cn/tags/react/"/>
     
   </entry>
   
